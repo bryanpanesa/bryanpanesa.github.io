@@ -1,0 +1,439 @@
+html {
+    /*background-image: linear-gradient(to bottom right, #F7F7F7, #EAFBFF);*/
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    color: #3a585f;
+}
+/*
+Orange color: #f39c12
+Red color: #e74c3c
+*/
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: white; 
+    color: #008CBA; 
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+    font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	color: #20515b;
+}
+/* HEADER */
+
+
+.header {
+    overflow: hidden;
+}
+.navbar-outer {
+    background: #2f3241;
+    border-bottom-color: #1a1b23;
+	/*border-bottom: 8px solid #D2F079;*/
+/*	box-shadow: 1px 5px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 12px 10px 20px 0px rgba(46,61,73,0.15);
+    margin: 0 auto;
+}
+.left-bar, .right-bar {
+    display: inline-block;
+    vertical-align: top;
+}
+.left-bar {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.left-bar a.logo img{
+	padding: 10px;
+}
+.left-bar li {
+	float: left;
+}
+.left-bar li.named {
+    padding: 13px 0;
+    font-size: 20px
+}
+.left-bar .bryan {
+	color: #e8e8e8;
+    text-align: right;
+    font-weight: 800;
+}
+.left-bar .panesa {
+	color: #b4b4b4;
+    font-weight: 500;
+}
+.left-bar .bryan:hover {
+	color: #f39c12;
+    transition-delay: 0.3s;
+}
+.left-bar .panesa:hover {
+	color: #f39c12;
+    transition-delay: 0.3s;
+}
+.right-bar {
+    list-style-type: none;
+    margin: 0 0 0 300px;
+    padding: 0;
+    text-transform: lowercase;
+}
+.right-bar li {
+    float: right;
+}
+.right-bar li a {
+    display: block;
+    text-align: center;
+    padding: 20px !important;
+    text-decoration: none;
+    color: #74b1be;
+}
+/*a.nav:hover {
+	color: #47c0da;
+    border-bottom: 3px solid #f39c12;
+}
+a.nav:active {
+	color: #47c0da;
+}*/
+
+a.nav {
+  position: relative;
+  color: #74b1be;
+}
+a.nav:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 5px;
+  background-color: #47c0da;
+  content: "";
+  transition: width 0.2s;
+}
+a.nav:hover {
+  color: #47c0da;
+}
+a.nav:hover:after {
+  width: 100%;
+}
+ 
+
+/* END OF HEADER */
+
+
+/* BANNER */
+.banner {
+/*	background: url(../images/dog.jpg) no-repeat;*/
+    /*background-image: -webkit-linear-gradient(top left, #F7F7F7, #EAFBFF);
+    background-image: -moz-linear-gradient(top left, #F7F7F7, #EAFBFF);
+    background-image: -o-linear-gradient(top left, #F7F7F7, #EAFBFF);
+    background-image: linear-gradient(to bottom right, #F7F7F7, #EAFBFF);*/
+    background: #2b2e3b;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+h1.bry {
+    color: #47c0da;
+    text-align: center;
+    vertical-align: middle; /*vertically align child of div */
+    font-size: 40px;
+    text-transform: capitalize;
+    text-shadow: 0 0 0.313em #47c0da, 0 0 0.625em #47c0da;
+    font-weight: 400;
+}
+div.face-banner {
+	margin: 0 auto;
+	text-align: center
+}
+div.face-banner img {
+	width: 150px;
+	display: block;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+}
+div.banner p.quote {
+	color: #74b1be;
+	padding: 0 60px;
+	font-size: 20px;
+}
+div.banner img.meteor1 {
+	width: 25%;
+	position: absolute;
+	right: -7px;
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+div.banner img.meteor2 {
+	width: 20%;
+	position: absolute;
+	left: -25px;
+	top: 70px;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(160deg);
+}
+
+/* END OF BANNER */
+
+/* about */
+div.about {
+	background: #ffffff;
+	width: 100%;
+	height: 550px;
+}
+div.about hr {
+	max-width: 500px;
+	background: transparent;
+	border: 0;
+	border-bottom: 1px solid #ddd;
+}
+.sections {
+	padding: 10px;
+	text-align: center;
+	font-weight: 300;
+    color: #20515b;
+}
+
+
+div.left-img-title img {
+    width: 160px;
+    vertical-align: middle;
+}
+
+div .about-col {
+    overflow: hidden;
+}
+h2.left-title {
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+h2.right-title {
+    font-weight: 300;
+}
+.left-title ~ .foo {
+    font-weight: 600;
+}
+.gradhat {
+    width: 140px;
+    margin-bottom: -20px;
+}
+.about1 {
+    float: left;
+    width: 500px;
+    vertical-align: middle;
+}
+.about2 {
+    margin-top: 50px;
+    padding: 0 70px;
+    overflow: hidden;
+    text-align: justify;
+}
+.about2 > p:nth-last-of-type(1)::after {
+    content: "- Bryan Jay B. Panesa";
+}
+/* END OF about */
+/* skills */
+
+.hrs {
+    max-width: 500px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+}
+.skills-col {
+    max-width: 1100px;
+    padding-top: 30px;
+    display: block;
+    margin: auto;
+    /*background-color: #2b2e3b;*/
+}
+.skill-sec div {
+    display: inline-block;
+    padding: 20px;
+}
+.skill-img {
+    transition: all 0.3s ease;
+/*    -webkit-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;*/
+}
+.skill-img:hover {
+    /*-webkit-filter: none;
+    -o-filter: none;
+    filter: none;
+    filter: none;*/
+    transform: scale(1.1);
+    transition-duration: 0.2s;
+}
+.skill-img + p {
+    font-weight: 300;
+    color: #74b1be;
+}
+.portfolio {
+    overflow-x: hidden;
+    background: rgba(154, 154, 154, 0.05);
+    /*transform: rotate(-3deg);*/
+    width: 100%;  
+    height: auto;
+}
+.container {
+    position: relative;
+    display: inline-block;
+    max-width: 350px;
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgba(46,61,73,0.5);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.container:hover {
+    box-shadow: 2px 4px 5px rgba(46,61,73,0.2);
+}
+.bot {
+    position: absolute;
+    max-width: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.lccfs {
+    background: url("../images/portfolio/bfp8.png") no-repeat center;
+    background-size: cover;
+}
+.gogon {
+    background-color: rgba(2,179,228,0.2);
+    background: url("../images/portfolio/gogon3.png") no-repeat center;
+    background-size: cover;
+}
+.phage {
+    background-color: rgba(2,179,228,0.2);
+    background: url("../images/portfolio/phage1.png") no-repeat center;
+    background-size: cover;
+    /*filter: hue-rotate(280deg);*/
+}
+.overlay-1 {
+    background-color: #f39c12;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+.overlay-2 {
+    background-color: #2ecc71;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}.overlay-3 {
+    background-color: #3498db;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+.overlay-1:hover {
+    background-color: #f39c12;
+    opacity: 0;
+}
+.overlay-2:hover {
+    background-color: #2ecc71;
+    opacity: 0;
+}.overlay-3:hover {
+    background-color: #3498db;
+    opacity: 0;
+}
+div > h1 {
+    padding: 70px;
+    vertical-align: middle;
+    color: #fff;
+}
+div.bot > h1::after {
+    content: " Development";
+}
+.container > h4 {
+    position: absolute;
+    top: 240px;
+    bottom: 0;
+    right: 40px;
+    left: 40px;
+}
+.container > ul li {
+    position: absolute;
+    display: inline-block;
+    bottom: 15px;
+    left: 10px;
+    padding: 5px 8px;
+    font-size: 70%;
+    border-radius: 15px;
+    z-index: 2;
+    color: #fff;
+}
+/* BFP LCCFS CONTAINER */
+.container ul > li.lccfs {
+    background: #f39c12;
+}
+.container ul li.lccfs:nth-child(2) {
+    margin-left: 14%;
+}
+.container ul li.lccfs:nth-child(3) {
+    margin-left: 40%;
+}
+.container ul li.lccfs:last-child {
+    margin-left: 58%;
+}
+/* GOGON SYSTEM CONTAINER */
+.container ul > li.gogon {
+    background: #2ecc71;
+}
+.container ul > li.gogon:nth-child(2) {
+    background: #2ecc71;
+    margin-left: 14%;
+}
+.container ul > li.gogon:nth-child(3)  {
+    margin-left: 40%;
+}
+.container ul > li.gogon:last-child {
+    margin-left: 58%;
+}
+/* PHAGEBIOTICS CONTAINER */
+.container ul > li.phage {
+    background: #3498db;
+}
+.container ul > li.phage2:nth-child(2) {
+    margin-left: 15%;
+}
+.container ul > li.phage3:last-child {
+    margin-left: 42%;
+}
+
+

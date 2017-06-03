@@ -1,0 +1,72 @@
+@media only screen and (max-width: 855px) {
+    ul.right-bar {
+        margin: 0 auto;
+    }
+    div.about {
+        height: 640px;
+    }
+    div.about-col {
+    	display: block;
+    }
+    .about1 {
+        float: none;
+        width:auto;
+        border:0;
+        margin: 0;
+    }
+    .about2 p {
+        padding: 2px;
+        font-size: 90%;
+    }
+    .skillsec {
+        margin-top: 250px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .right-bar li a {
+        padding: 0px;
+        font-size: 16px;
+    }   
+    div.about {
+        height: 680px;
+    }
+    .about2 {
+        padding: 0 20px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .right-bar li a {
+        font-size: 11px;
+    }   
+    .navbar-outer { 
+        height: 120px;
+    }
+    div.face-banner img {
+    	padding-top: 0;	
+    }
+    div.about {
+        height: 730px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 310px;
+        height: 350px;
+        margin: 30px;
+    }
+}
+/* Screens lower that 320 w */ 
+@media only screen and (max-width: 320px) {
+    .container {
+        max-width: 260px;
+        width: 260px;
+        height: 350px;
+        margin: 30px;
+    }
+    div.bot > h1::after {
+        content: " Dev";
+    }
+    .container > ul li {
+        font-size: 55%;
+    }
+}
