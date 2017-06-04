@@ -349,7 +349,11 @@ h2.right-title {
     background-color: rgba(2,179,228,0.2);
     background: url("../images/portfolio/phage1.png") no-repeat center;
     background-size: cover;
-    /*filter: hue-rotate(280deg);*/
+}
+.inventory {
+    background-color: rgba(2,179,228,0.2);
+    background: url("../images/portfolio/crud1.png") no-repeat center;
+    background-size: cover;
 }
 .overlay-1 {
     background-color: #f39c12;
@@ -360,8 +364,14 @@ h2.right-title {
     background-color: #2ecc71;
     opacity: 0.8;
     transition: all 0.3s ease;
-}.overlay-3 {
+}
+.overlay-3 {
     background-color: #3498db;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+.overlay-4 {
+    background-color: #e74c3c;
     opacity: 0.8;
     transition: all 0.3s ease;
 }
@@ -372,8 +382,13 @@ h2.right-title {
 .overlay-2:hover {
     background-color: #2ecc71;
     opacity: 0;
-}.overlay-3:hover {
+}
+.overlay-3:hover {
     background-color: #3498db;
+    opacity: 0;
+}
+.overlay-4:hover {
+    background-color: #e74c3c;
     opacity: 0;
 }
 div.bot > h1 {
@@ -438,6 +453,18 @@ div.bot > h1::after {
 .container ul > li.phage3:last-child {
     margin-left: 42%;
 }
+/* INVENTORY PHP OOP CONTAINER */
+.container ul > li.inventory {
+    background: #e74c3c;
+}
+.container ul li.inventory:nth-child(2) {
+    margin-left: 14%;
+}
+.container ul li.inventory:last-child {
+    margin-left: 40%;
+}
+
+
 /* START OF CONTACTS SECTION */
 .contact {
     text-align: center;
