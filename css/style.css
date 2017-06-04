@@ -87,11 +87,13 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .left-bar .bryan:hover {
 	color: #f39c12;
-    transition-delay: 0.3s;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 .left-bar .panesa:hover {
-	color: #f39c12;
-    transition-delay: 0.3s;
+	color: #e74c3c;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 .right-bar {
     list-style-type: none;
@@ -238,6 +240,12 @@ h2.right-title {
 }
 h2.right-title ~ p {
     text-align: justify;
+}
+.gitter {
+    text-decoration: none;
+}
+.gitter:visited {
+    color: #47c0da;
 }
 
 .left-title ~ .foo {
@@ -505,5 +513,11 @@ div.bot > h1::after {
 /* START OF CONTACTS SECTION */
 .contact {
     text-align: center;
+    overflow-x: hidden;
+    background: rgba(154, 154, 154, 0.05);
+    /*transform: rotate(-3deg);*/
+    width: 100%;  
+    height: auto;
 }
+
 
