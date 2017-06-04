@@ -51,6 +51,7 @@ h1, h2, h3, h4, h5, h6, p{
     overflow: hidden;
 }
 .navbar-outer {
+    text-align: center;
     background: #2f3241;
     border-bottom-color: #1a1b23;
 	/*border-bottom: 8px solid #D2F079;*/
@@ -245,6 +246,7 @@ h2.right-title {
     margin-bottom: -20px;
 }
 .about1 {
+    text-align: center;
     float: left;
     width: 500px;
     vertical-align: middle;
@@ -272,6 +274,7 @@ h2.right-title {
     padding-top: 30px;
     display: block;
     margin: auto;
+    text-align: center;
     /*background-color: #2b2e3b;*/
 }
 .skill-sec div {
@@ -298,6 +301,7 @@ h2.right-title {
     color: #74b1be;
 }
 .portfolio {
+    text-align: center;
     overflow-x: hidden;
     background: rgba(154, 154, 154, 0.05);
     /*transform: rotate(-3deg);*/
@@ -372,7 +376,7 @@ h2.right-title {
     background-color: #3498db;
     opacity: 0;
 }
-div > h1 {
+div.bot > h1 {
     padding: 70px;
     vertical-align: middle;
     color: #fff;
@@ -395,7 +399,6 @@ div.bot > h1::after {
     padding: 5px 8px;
     font-size: 70%;
     border-radius: 15px;
-    z-index: 2;
     color: #fff;
 }
 /* BFP LCCFS CONTAINER */
@@ -435,5 +438,8 @@ div.bot > h1::after {
 .container ul > li.phage3:last-child {
     margin-left: 42%;
 }
-
+/* START OF CONTACTS SECTION */
+.contact {
+    text-align: center;
+}
 
