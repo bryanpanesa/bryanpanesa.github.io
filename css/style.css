@@ -355,6 +355,11 @@ h2.right-title {
     background: url("../images/portfolio/crud1.PNG") no-repeat center;
     background-size: cover;
 }
+.typeab {
+    background-color: rgba(2,179,228,0.2);
+    background: url("../images/portfolio/type1.PNG") no-repeat center;
+    background-size: cover;
+}
 .overlay-1 {
     background-color: #f39c12;
     opacity: 0.8;
@@ -375,20 +380,24 @@ h2.right-title {
     opacity: 0.8;
     transition: all 0.3s ease;
 }
+.overlay-5 {
+    background-color: #9b59b6;
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
 .overlay-1:hover {
-    background-color: #f39c12;
     opacity: 0;
 }
 .overlay-2:hover {
-    background-color: #2ecc71;
     opacity: 0;
 }
 .overlay-3:hover {
-    background-color: #3498db;
     opacity: 0;
 }
 .overlay-4:hover {
-    background-color: #e74c3c;
+    opacity: 0;
+}
+.overlay-5:hover {
     opacity: 0;
 }
 div.bot > h1 {
@@ -462,6 +471,13 @@ div.bot > h1::after {
 }
 .container ul li.inventory:last-child {
     margin-left: 40%;
+}
+/* INVENTORY PHP OOP CONTAINER */
+.container ul > li.typeab {
+    background: #9b59b6;
+}
+.container ul li.typeab:last-child {
+    margin-left: 26%;
 }
 
 
