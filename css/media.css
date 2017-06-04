@@ -47,6 +47,9 @@
     div.about {
         height: 730px;
     }
+    .about2 {
+        text-align: center;
+    }
 }
 @media only screen and (max-width: 375px) {
     .container {

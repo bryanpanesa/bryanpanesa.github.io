@@ -19,7 +19,6 @@ Red color: #e74c3c
     border-radius: 4px;
     color: white;
     padding: 16px 32px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
@@ -28,13 +27,11 @@ Red color: #e74c3c
     transition-duration: 0.4s;
     cursor: pointer;
 }
-
 .button2 {
     background-color: white; 
     color: #008CBA; 
     border: 2px solid #008CBA;
 }
-
 .button2:hover {
     background-color: #008CBA;
     color: white;
@@ -237,7 +234,12 @@ h2.left-title {
 }
 h2.right-title {
     font-weight: 300;
+    text-align: justify;
 }
+h2.right-title ~ p {
+    text-align: justify;
+}
+
 .left-title ~ .foo {
     font-weight: 600;
 }
@@ -255,7 +257,6 @@ h2.right-title {
     margin-top: 50px;
     padding: 0 70px;
     overflow: hidden;
-    text-align: justify;
 }
 .about2 > p:nth-last-of-type(1)::after {
     content: "- Bryan Jay B. Panesa";
