@@ -162,9 +162,8 @@ h1.bry {
     color: #47c0da;
     text-align: center;
     vertical-align: middle; /*vertically align child of div */
-    font-size: 40px;
-    text-transform: capitalize;
-    text-shadow: 0 0 0.313em #47c0da, 0 0 0.625em #47c0da;
+    font-size: 50px;
+    text-transform: capitalize;    /*text-shadow: 0 0 0.313em #47c0da, 0 0 0.625em #47c0da;*/
     font-weight: 400;
 }
 div.face-banner {
@@ -241,10 +240,11 @@ h2.right-title {
 h2.right-title ~ p {
     text-align: justify;
 }
-.gitter {
+.linked {
+    color: #47c0da;
     text-decoration: none;
 }
-.gitter:visited {
+.linked:visited {
     color: #47c0da;
 }
 
@@ -514,10 +514,33 @@ div.bot > h1::after {
 .contact {
     text-align: center;
     overflow-x: hidden;
-    background: rgba(154, 154, 154, 0.05);
+    background: linear-gradient(to left, #24C6DC, #514A9D);
+    margin-top: 50px;
     /*transform: rotate(-3deg);*/
     width: 100%;  
     height: auto;
 }
-
-
+h1.contact-white, .contact div > p {
+    color: #fff;
+    font-weight: 300;
+}
+.contact > div {
+    display: inline-block;
+    width: 350px;
+    height: auto;
+    overflow-y: hidden;
+    text-align: center;
+    vertical-align: middle;
+}
+.contact-icons {
+    padding: 20px;
+    color: #74b1be;
+    transition: all 0.3s ease;
+}
+.contact-icons:hover {
+    color: #fff;
+}
+footer {
+    height: 90px;
+    background: tomato;
+}
