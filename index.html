@@ -77,7 +77,7 @@
 						
 					<p><span class="linked">Web development</span> is where he specializes the most. Through <a class="linked" href="https://gitter.im/" alt="gitter">gitter</a> and social media groups, he spends most of his time learning and helping others. He believes that there is knowlegde in helping. By helping others, solving their problems, you retain or even improve your own knowledge.</p>
 
-					<p>He is interested in everything related to science, technology and computers.</p>
+					<p>He is interested in everything related to science, technology and computers. While not working, he spends his time playing computer games or some sport.</p>
 					<p>"Knowledge comes from helping others"</p>
 					
 					<div class="center-button">
@@ -93,7 +93,7 @@
 	<!-- END OF about -->
 
 	<!-- START of skills -->
-		
+
 		<h1 class="sections skillsec" id="skills">Skills</h1>
 		<hr class="hrs">
 		<div class="skills-col">
@@ -299,12 +299,26 @@
 			<h1></h1>
 		</div>
 		<footer>
-				<p>The code is open-source and it's available in my github <a class="linked" href="https://github.com/bryanpanesa/bryanpanesa.github.io" title="personal-website repo">repository</a>.</p>
+				<p>This website is open-source. You can find it in my github <a class="underlined" href="https://github.com/bryanpanesa/bryanpanesa.github.io" title="personal-website repo">repository</a>.</p>
 				<p>&copy 2017 bryanpanesa | Made with <i class="fa fa-heart"></i> & <i class="fa fa-spinner fa-pulse fa-fw"></i></p>
 		</footer>
 	<!-- END of skills -->
 	<!-- End of Footer -->
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var $root = $('html, body');
+	$('.nav').click(function() {
+	    $root.animate({
+	        scrollTop: $( $.attr(this, 'href') ).offset().top
+	    }, 500);
+	    return false;
+	});
+});
+	
+
+
+</script>
 </body>
 
 

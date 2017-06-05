@@ -562,3 +562,22 @@ footer > p {
     font-weight: 100;
     color: rgba(255,255,255,0.75);
 }
+.underlined {
+    text-decoration: none;
+    position: relative;
+    color: rgba(255,255,255,0.75);
+}
+.underlined:after {
+    content: '';
+
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+
+    border-width: 0 0 1px;
+    border-style: solid;
+}
+.underlined:hover {
+    color: #47c0da;
+}
