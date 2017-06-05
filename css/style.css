@@ -514,11 +514,14 @@ div.bot > h1::after {
 .contact {
     text-align: center;
     overflow-x: hidden;
-    background: linear-gradient(to left, #24C6DC, #514A9D);
+    background: linear-gradient(to top left, #24C6DC, #514A9D);
     margin-top: 50px;
     /*transform: rotate(-3deg);*/
     width: 100%;  
     height: auto;
+}
+h1.contact-white {
+    font-size: 250%;
 }
 h1.contact-white, .contact div > p {
     color: #fff;
@@ -526,13 +529,15 @@ h1.contact-white, .contact div > p {
 }
 .contact > div {
     display: inline-block;
-    width: 350px;
+    width: 400px;
     height: auto;
+    padding: 50px 0;
     overflow-y: hidden;
     text-align: center;
     vertical-align: middle;
 }
 .contact-icons {
+    text-decoration: none;
     padding: 20px;
     color: #74b1be;
     transition: all 0.3s ease;
@@ -540,7 +545,20 @@ h1.contact-white, .contact div > p {
 .contact-icons:hover {
     color: #fff;
 }
+div.hobbies {
+    padding: 50px;
+    height: auto;
+}
 footer {
-    height: 90px;
-    background: tomato;
+    height: 150px;
+    background: #2f3241;
+    text-align: center;
+}
+footer  p:nth-child(1) {
+    padding-top: 50px;
+}
+footer > p {
+    padding: 0 15px;
+    font-weight: 100;
+    color: rgba(255,255,255,0.75);
 }

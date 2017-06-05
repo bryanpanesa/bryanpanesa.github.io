@@ -57,6 +57,15 @@
         height: 350px;
         margin: 30px;
     }
+    h1.contact-white, .contact div > p {
+        padding: 0 45px;
+    }
+    .contact > div {
+        width: auto;
+    }
+    .skillsec {
+        margin-top: 300px;
+    }
 }
 /* Screens lower that 320 w */ 
 @media only screen and (max-width: 320px) {
