@@ -453,13 +453,13 @@ div.bot > h1::after {
     border: 1px solid #F39C12;
 }
 .container ul li.lccfs:nth-child(2) {
-    margin-left: 14%;
+    margin-left: 15%;
 }
 .container ul li.lccfs:nth-child(3) {
-    margin-left: 40%;
+    margin-left: 43%;
 }
 .container ul li.lccfs:last-child {
-    margin-left: 58%;
+    margin-left: 63%;
 }
 /* GOGON SYSTEM CONTAINER */
 .container ul > li.gogon {
@@ -467,13 +467,13 @@ div.bot > h1::after {
     border: 1px solid #2ecc71;
 }
 .container ul > li.gogon:nth-child(2) {
-    margin-left: 14%;
+    margin-left: 15%;
 }
 .container ul > li.gogon:nth-child(3)  {
-    margin-left: 40%;
+    margin-left: 43%;
 }
 .container ul > li.gogon:last-child {
-    margin-left: 58%;
+    margin-left: 63%;
 }
 /* PHAGEBIOTICS CONTAINER */
 .container ul > li.phage {
@@ -481,10 +481,10 @@ div.bot > h1::after {
     border: 1px solid #3498db;
 }
 .container ul > li.phage2:nth-child(2) {
-    margin-left: 15%;
+    margin-left: 17%;
 }
 .container ul > li.phage3:last-child {
-    margin-left: 42%;
+    margin-left: 46%;
 }
 /* INVENTORY PHP OOP CONTAINER */
 .container ul > li.inventory {
@@ -492,10 +492,10 @@ div.bot > h1::after {
     border: 1px solid #e74c3c;
 }
 .container ul li.inventory:nth-child(2) {
-    margin-left: 14%;
+    margin-left: 15%;
 }
 .container ul li.inventory:last-child {
-    margin-left: 40%;
+    margin-left: 43%;
 }
 /* INVENTORY PHP OOP CONTAINER */
 .container ul > li.typeab {
@@ -503,7 +503,7 @@ div.bot > h1::after {
     border: 1px solid #9b59b6;
 }
 .container ul li.typeab:last-child {
-    margin-left: 26%;
+    margin-left: 28%;
 }
 /* INVENTORY PHP OOP CONTAINER */
 .container ul > li.presidents {
@@ -511,7 +511,7 @@ div.bot > h1::after {
     border: 1px solid #1abc9c;
 }
 .container ul li.presidents:last-child {
-    margin-left: 26%;
+    margin-left: 28%;
 }
 
 
