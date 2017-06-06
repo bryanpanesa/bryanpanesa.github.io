@@ -545,10 +545,6 @@ h1.contact-white, .contact div > p {
 .contact-icons:hover {
     color: #fff;
 }
-div.hobbies {
-    padding: 50px;
-    height: auto;
-}
 footer {
     height: 150px;
     background: #2f3241;
@@ -572,7 +568,6 @@ footer > p {
 }
 .underlined:after {
     content: '';
-
     width: 100%;
     position: absolute;
     left: 0;
@@ -583,4 +578,31 @@ footer > p {
 }
 .underlined:hover {
     color: #47c0da;
+}
+.redpanda {
+    color: #e74c3c;
+}
+.extra {
+    width: 100%;    
+    height: 100%;
+    text-align: center;
+}
+.col-panda {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 50px 0;
+    overflow-y: hidden;
+    text-align: center;
+    padding: 30px;
+    vertical-align: middle;
+}
+.col-panda > h1 {
+    font-weight: 300;
+}
+.col-panda img {
+    transition: all 0.3s ease;
+}
+.col-panda img:hover {
+    transform: scale(1.1);
 }
