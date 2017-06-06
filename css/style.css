@@ -562,6 +562,9 @@ footer > p {
     font-weight: 100;
     color: rgba(255,255,255,0.75);
 }
+.fa-heart {
+    color: tomato;
+}
 .underlined {
     text-decoration: none;
     position: relative;
