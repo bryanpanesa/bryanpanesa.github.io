@@ -9,6 +9,9 @@ body {
     overflow-x: hidden;
     color: #3a585f;
 }
+body.overflo {
+    overflow-y: hidden;
+}
 /*
 Orange color: #f39c12
 Red color: #e74c3c
@@ -311,7 +314,7 @@ h2.right-title ~ p {
 }
 .portfolio {
     text-align: center;
-    overflow-x: hidden;
+    overflow: hidden;
     background: rgba(154, 154, 154, 0.05);
     /*transform: rotate(-3deg);*/
     width: 100%;  
@@ -596,7 +599,6 @@ footer > p {
     display: inline-block;
     width: auto;
     height: auto;
-    padding: 50px 0;
     overflow-y: hidden;
     text-align: center;
     padding: 30px;
@@ -610,4 +612,75 @@ footer > p {
 }
 .col-panda img:hover {
     transform: scale(1.1);
+}
+h1.content-title {
+    font-size: 50px;
+    padding: 40px 40px 0 40px;
+    color: #fff;
+}
+p.lccfs-extra {
+    text-transform: uppercase;
+    color: #f39c12;
+    font-size: 150%;
+    padding-bottom: 50px;
+}
+.lccfs-content ul {
+    margin: auto;
+    text-align: center;
+}
+.lccfs-content ul li {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 140%;
+    padding: 50px;
+    vertical-align: middle;
+    font-weight: 300;
+}
+.lccfs-content ul li span {
+    color: #f39c12;
+    font-weight: 600;
+}
+
+
+.lccfs-overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: #1a1a1a;
+    overflow-x: hidden;
+    transition: all 0.5s ease;
+}
+.lccfs-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.lccfs-overlay .closebtn:hover,
+.lccfs-overlay .closebtn:focus {
+    color: #f1f1f1;
+}
+.lccfs-overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    padding: 8px;
+    color: #818181;
+    font-size: 60px;
+    text-decoration: none;
+}
+@media screen and (max-height: 450px) {
+  .lccfs-overlay a {font-size: 20px}
+  .lccfs-overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }

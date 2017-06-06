@@ -191,19 +191,34 @@
 		<div class="portfolio" id="portfolio">
 			<h1 class="sections">Portfolio</h1>
 			<hr class="hrs">
-			<div class="container">
-				<div class="bot lccfs"></div>
-				<div class="bot overlay-1">
-					<h1>Web</h1>
-				</div>
-				<h4>Assessment & Reports System for BFP LCCFS</h4>
-				<ul>
-					<li class="lccfs1 lccfs">PHP</li>
-					<li class="lccfs2 lccfs">BOOTSTRAP</li>
-					<li class="lccfs3 lccfs">MYSQL</li>
-					<li class="lccfs4 lccfs">JQUERY</li>
-				</ul>
+			<!-- LCCFS CONTENT -->
+			<div id="myNav" class="lccfs-overlay">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="lccfs-content">
+			    <h1 class="content-title">ASSESSMENT & REPORTS SYSTEM</h1>
+			    <p class="lccfs-extra">Legazpi City Central Fire Station</p>
+			    <ul>
+			    	<li><span>ROLE</span> WEB DESIGNER / DEVELOPER</li>
+			    	<li><span>TYPE</span> WEB DEVELOPMENT</li>
+			    	<li><span>DATE</span> APRIL 2016</li>
+			    </ul>
+
+			  </div>
 			</div>
+			<!-- END OF LCCFS CONTENT -->
+				<div class="container" onclick="openNav()">
+					<div class="bot lccfs"></div>
+					<div class="bot overlay-1">
+						<h1>Web</h1>
+					</div>
+					<h4>Assessment & Reports System for BFP LCCFS</h4>
+					<ul>
+						<li class="lccfs1 lccfs">PHP</li>
+						<li class="lccfs2 lccfs">BOOTSTRAP</li>
+						<li class="lccfs3 lccfs">MYSQL</li>
+						<li class="lccfs4 lccfs">JQUERY</li>
+					</ul>
+				</div>
 			<div class="container">
 				<div class="bot gogon"></div>
 				<div class="bot overlay-2">
@@ -311,6 +326,16 @@
 		<!-- End of Footer -->
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+    $("body").addClass("overflo");
+}
+
+function closeNav() {
+	document.getElementById("myNav").style.width = "0%";
+    $("body").removeClass("overflo");
+}
+
 $(document).ready(function(){
 	var $root = $('html, body');
 	$('.nav').click(function() {
@@ -321,6 +346,7 @@ $(document).ready(function(){
 	});
 });
 </script>
+
 </body>
 
 
