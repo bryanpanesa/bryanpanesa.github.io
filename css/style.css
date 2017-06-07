@@ -184,23 +184,7 @@ div.banner p.quote {
 	padding: 0 60px;
 	font-size: 20px;
 }
-div.banner img.meteor1 {
-	width: 25%;
-	position: absolute;
-	right: -7px;
-	-ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(7deg);
-}
-div.banner img.meteor2 {
-	width: 20%;
-	position: absolute;
-	left: -25px;
-	top: 70px;
-	-ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    transform: rotate(160deg);
-}
+
 
 /* END OF BANNER */
 
@@ -353,27 +337,22 @@ h2.right-title ~ p {
     background-size: cover;
 }
 .gogon {
-    background-color: rgba(2,179,228,0.2);
     background: url("../images/portfolio/gogon1.PNG") no-repeat center;
     background-size: cover;
 }
 .phage {
-    background-color: rgba(2,179,228,0.2);
     background: url("../images/portfolio/phage1.png") no-repeat center;
     background-size: cover;
 }
 .inventory {
-    background-color: rgba(2,179,228,0.2);
     background: url("../images/portfolio/crud1.PNG") no-repeat center;
     background-size: cover;
 }
 .typeab {
-    background-color: rgba(2,179,228,0.2);
     background: url("../images/portfolio/type1.PNG") no-repeat center;
     background-size: cover;
 }
 .presidents {
-    background-color: rgba(2,179,228,0.2);
     background: url("../images/portfolio/presidents1.PNG") no-repeat center;
     background-size: cover;
 }
