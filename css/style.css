@@ -676,11 +676,3 @@ p.lccfs-extra {
     font-size: 60px;
     text-decoration: none;
 }
-@media screen and (max-height: 450px) {
-  .lccfs-overlay a {font-size: 20px}
-  .lccfs-overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
