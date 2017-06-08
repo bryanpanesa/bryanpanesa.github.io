@@ -16,6 +16,9 @@ body.overflo {
 Orange color: #f39c12
 Red color: #e74c3c
 */
+.thin {
+    font-weight: 100;
+}
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -606,26 +609,7 @@ p.lccfs-extra {
     font-size: 150%;
     padding-bottom: 50px;
 }
-.lccfs-content ul {
-    margin: auto;
-    text-align: center;
-}
-.lccfs-content ul li {
-    display: inline-block;
-    width: auto;
-    height: auto;
-    text-align: center;
-    font-size: 140%;
-    padding: 50px;
-    vertical-align: middle;
-    font-weight: 300;
-}
-.lccfs-content ul li span {
-    color: #f39c12;
-    font-weight: 600;
-}
-
-
+/* PORTFOLIO MODALS */
 .lccfs-overlay {
     height: 100%;
     width: 0;
@@ -656,4 +640,49 @@ p.lccfs-extra {
     color: #818181;
     font-size: 60px;
     text-decoration: none;
+}
+
+.lccfs-content div.details {
+    display: inline-block;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    font-size: 140%;
+    padding: 50px;
+    vertical-align: middle;
+    font-weight: 300;
+}
+.lccfs-content div.details span {
+    color: #f39c12;
+    font-weight: 600;
+}
+/* LCCFS MODAL CONTENT */
+.intro {
+    position: relative;
+    height: 300px;
+    background-color: #F3AF3B;
+}
+.intro div {
+    position: relative;
+    top: -45px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background: #F39C12;
+    border: 10px solid #F3AF3B;
+    border-radius: 100px;
+}
+.intro div i {
+    font-size: 40px;
+    margin: 0 auto;
+    padding: 30px;
+    color: #fff;
+}
+.intro > p {
+    padding: 0 15%;
+    font-size: 110%;
+    color: #000;
+    text-align: justify;
 }
