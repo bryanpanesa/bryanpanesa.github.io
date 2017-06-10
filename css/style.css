@@ -641,14 +641,12 @@ p.lccfs-extra {
     font-size: 60px;
     text-decoration: none;
 }
-
 .lccfs-content div.details {
     display: inline-block;
     width: auto;
     height: 100px;
-    text-align: center;
     font-size: 140%;
-    padding: 50px;
+    padding: 50px 10% 5px 10%;
     vertical-align: middle;
     font-weight: 300;
 }
@@ -659,7 +657,9 @@ p.lccfs-extra {
 /* LCCFS MODAL CONTENT */
 .intro {
     position: relative;
-    height: 300px;
+    height: auto;
+}
+.lccfs-intro {
     background-color: #F3AF3B;
 }
 .intro div {
@@ -681,8 +681,28 @@ p.lccfs-extra {
     color: #fff;
 }
 .intro > p {
+    position: relative;
+    top: -50px;
     padding: 0 15%;
-    font-size: 110%;
+    font-size: 120%;
     color: #000;
     text-align: justify;
+}
+
+.contents {
+    width: 100%
+    height: auto;
+    padding: 5%;
+}
+.contents > h1 {
+    color: #fff;
+    font-weight: 700;
+}
+.contents h1 span {
+    color: #F3AF3B;
+    font-weight: 100;
+}
+.contents > p {
+    color: #b2b2b2;
+    font-weight: 300;
 }
