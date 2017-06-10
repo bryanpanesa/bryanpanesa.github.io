@@ -318,7 +318,7 @@ h2.right-title ~ p {
     height: 350px;
     margin: 30px;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 5px 5px 25px rgba(46,61,73,0.5);
     transition: all 0.3s ease;
     cursor: pointer;
@@ -335,8 +335,8 @@ h2.right-title ~ p {
     left: 0;
     width: 100%;
     height: 250px;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 .lccfs {
     background: url("../images/portfolio/bfp1.PNG") no-repeat center;
@@ -690,19 +690,42 @@ p.lccfs-extra {
 }
 
 .contents {
-    width: 100%
+    position: relative;
+    width: 100%;
     height: auto;
-    padding: 5%;
+    padding: 1%;
 }
-.contents > h1 {
+.contents > h1,
+.overview > h3 {
     color: #fff;
     font-weight: 700;
 }
-.contents h1 span {
+.contents h1 span,
+.overview h3 span {
     color: #F3AF3B;
     font-weight: 100;
 }
 .contents > p {
     color: #b2b2b2;
     font-weight: 300;
+}
+.overview {
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+.overview p {
+    color: #b2b2b2;
+    text-indent: 40px;
+    text-align: justify;
+}
+.overview img {
+    margin: auto 0;
+    max-width: 800px;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 25px rgba(46,61,73,0.5);
 }
