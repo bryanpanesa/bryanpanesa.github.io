@@ -57,6 +57,17 @@
       top: 15px;
       right: 35px;
     }
+    h1.content-title {
+        font-size: 35px;
+    }
+    p.lccfs-extra {
+        font-size: 100%;
+        padding-bottom: 20px;
+    }
+    .portfolio-content div.lccfs-details {
+        font-size: 120%;
+        padding: 0 10% 0 10%;
+    }
 }
 @media only screen and (max-width: 375px) {
     .container {

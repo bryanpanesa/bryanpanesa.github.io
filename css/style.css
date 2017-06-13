@@ -621,7 +621,7 @@ p.lccfs-extra {
     overflow-x: hidden;
     transition: all 0.5s ease;
 }
-.lccfs-content {
+.portfolio-content {
     position: relative;
     top: 10%;
     width: 100%;
@@ -641,7 +641,7 @@ p.lccfs-extra {
     font-size: 60px;
     text-decoration: none;
 }
-.lccfs-content div.details {
+.portfolio-content div.lccfs-details {
     display: inline-block;
     width: auto;
     height: 100px;
@@ -650,7 +650,7 @@ p.lccfs-extra {
     vertical-align: middle;
     font-weight: 300;
 }
-.lccfs-content div.details span {
+.portfolio-content div.lccfs-details span {
     color: #f39c12;
     font-weight: 600;
 }
@@ -662,7 +662,7 @@ p.lccfs-extra {
 .lccfs-intro {
     background-color: #F3AF3B;
 }
-.intro div {
+.intro div.lccfs-circle {
     position: relative;
     top: -45px;
     left: 0;
@@ -674,7 +674,7 @@ p.lccfs-extra {
     border: 10px solid #F3AF3B;
     border-radius: 100px;
 }
-.intro div i {
+.intro div.lccfs-circle i {
     font-size: 40px;
     margin: 0 auto;
     padding: 30px;
@@ -683,18 +683,21 @@ p.lccfs-extra {
 .intro > p {
     position: relative;
     top: -50px;
-    padding: 0 15%;
+    padding: 0 10%;
     font-size: 120%;
     color: #000;
     text-align: justify;
 }
-
+.intro > p span {
+    font-size: 105%;
+    font-weight: 500;
+}
 .contents {
     position: relative;
     width: 100%;
     height: auto;
-    padding: 1%;
-}
+    margin: 100px 0;
+ }
 .contents > h1,
 .overview > h3 {
     color: #fff;
@@ -712,10 +715,14 @@ p.lccfs-extra {
 .overview {
     position: relative;
     display: inline-block;
-    width: 500px;
-    padding: 10px;
+    max-width: 750px;
     margin: 20px;
     text-align: center;
+    vertical-align: middle;
+}
+
+.overview-text {
+    max-width: 350px;
 }
 .overview p {
     color: #b2b2b2;
@@ -723,9 +730,60 @@ p.lccfs-extra {
     text-align: justify;
 }
 .overview img {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
     margin: auto 0;
     max-width: 800px;
-    width: 500px;
+    width: 750px;
     border-radius: 5px;
-    box-shadow: 5px 5px 25px rgba(46,61,73,0.5);
+    box-shadow: 5px 10px 25px rgba(0,0,0,0.2);
+    transition: all 0.4s ease;
+    cursor: pointer;
 }
+.overview img.img-1 {
+    position: relative;
+    opacity: 0.3;
+}
+.overview img.img-2 {
+    position: absolute;
+    height: 100%;
+    left: 15px;
+    top: 50px;
+}
+.overview img.img-1:hover {
+    z-index: 1;
+    opacity: 1;
+}
+.overview img.img-1:hover ~ img.img-2 {
+    opacity: 0.3;
+}
+.content-footer {
+    background: #F3AF3B;
+    height: 200px;
+    vertical-align: middle;
+}
+.content-footer a {
+    text-decoration: none;
+}
+.content-footer h1 {
+    padding: 6% 0 0 0;
+    font-size: 50px;
+    color: #000;
+    font-weight: 100;
+}
+.content-footer h1 span{
+    color: #fff;
+    font-weight: 700;
+}
+.content-footer:hover {
+    background: #fff;
+    transition: all 0.3s ease;
+    
+}
+.content-footer:hover h1 span  {
+    color: #F3AF3B;
+    transition: all 0.3s ease;
+}
+
