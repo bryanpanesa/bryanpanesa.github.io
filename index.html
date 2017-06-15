@@ -195,16 +195,16 @@
 			<h1 class="sections">Portfolio</h1>
 			<hr class="hrs">
 			<!-- LCCFS CONTENT -->
-			<div id="myNav" class="lccfs-overlay">
+			<div id="lccfs-nav" class="nav-overlay">
 			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			  <div class="portfolio-content">
 			    <h1 class="content-title">ASSESSMENT <span class="thin">&</span> REPORTS <span class="thin">SYSTEM</span></h1>
-			    <p class="lccfs-extra">Legazpi City Central Fire Station</p>
+			    <p class="lccfs-extra nav-extra">Legazpi City Central Fire Station</p>
 			    
-			    <div class="lccfs-details"><span>ROLE</span> WEB DESIGNER / DEVELOPER</div>
-			    <div class="lccfs-details"><span>DATE</span> APRIL 2016</div>
+			    <div class="lccfs-details nav-details"><span>ROLE</span> WEB DESIGNER / DEVELOPER</div>
+			    <div class="lccfs-details nav-details"><span>DATE</span> APRIL 2016</div>
 			    <div class="intro lccfs-intro">
-			    	<div class="lccfs-circle"><i class="fa fa-info-circle"></i></div>
+			    	<div class="circle lccfs-circle"><i class="fa fa-info-circle"></i></div>
 			    	<p><span>Assessment & Reports System</span> is an offline system that records all the manually assessed details and important documents of an establishment. The system helps keep track of the records while it is still under assessment, inspection, infraction or release of clearances. Printing documents also becomes faster because we have implemented a search function in which all documents are always ready for printing.</p>
 			    </div>
 			    <div class="contents">
@@ -250,7 +250,7 @@
 			    		<img src="images/portfolio/bfp6.PNG">
 			    	</div>
 			    </div>
-			    <div class="content-footer" onclick="closeNav()">
+			    <div class="content-footer lccfs-footer" onclick="closeNav()">
 			    	<a href="javascript:void(0)">
 			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
 			    	</a>
@@ -258,7 +258,7 @@
 			  </div>
 			</div>
 			<!-- END OF LCCFS CONTENT -->
-				<div class="container" onclick="openNav()">
+				<div class="container" onclick="lccfsNavOpen()">
 					<div class="bot lccfs"></div>
 					<div class="bot overlay-1">
 						<h1>Web</h1>
@@ -271,7 +271,62 @@
 						<li class="lccfs4 lccfs">JQUERY</li>
 					</ul>
 				</div>
-			<div class="container">
+			<!-- GOGON CONTENT -->
+			<div id="gogon-nav" class="nav-overlay">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="portfolio-content">
+			    <h1 class="content-title">GRADING <span class="thin">MODULE</span></h1>
+			    <p class="gogon-extra nav-extra">Gogon High School</p>
+			    
+			    <div class="gogon-details nav-details"><span>ROLE</span> WEB DEVELOPER / DESIGNER</div>
+			    <div class="gogon-details nav-details"><span>DATE</span> SEPTEMBER 2016</div>
+			    <div class="intro gogon-intro">
+			    	<div class="circle gogon-circle"><i class="fa fa-info-circle"></i></div>
+			    	<p><span>The Gogon Grading Module</span> is an offline system that records all the manually assessed details and important documents of an establishment. The system helps keep track of the records while it is still under assessment, inspection, infraction or release of clearances. Printing documents also becomes faster because we have implemented a search function in which all documents are always ready for printing.</p>
+			    </div>
+			    <div class="contents">
+			    	<h1><span>01 </span>SYSTEM OVERVIEW</h1>
+			    	<div class="overview">
+			    		<img src="images/portfolio/gogon1.PNG">
+			    	</div>
+			    	<div class="overview overview-text">
+			    		<h3>MODULES<span> INTERFACE</span></h3>
+			    		<p>The system consists of 5 interconnected modules which runs on the same database. The Personnel and Student Information (PSIS), Enrollment, Scheduling, Grading and Attendance Kiosk are the 5 modules.</p>
+			    		<p>All of our data are taken from the PSIS, enrollment and attendance kiosk. Our module is just all about taking the enrolled students together with their sections and the teachers assigned on those sections. Once a student gets enrolled, we can already create quizzes, projects, activities and behavioral scores.</p>
+			    		<p></p>
+			    	</div>
+			    </div>
+			    <div class="contents">
+			    	<h1><span>02 </span>STRUCTURE</h1>
+			    	<div class="overview overview-text">
+			    		<h3><span>FOUR </span>QUARTERS</h3>
+			    		<p>The module works by logging an authorized employee (e.g. teacher) </p>
+			    		<p>The FSEC tab is where the Fire Safety Evaluation Clearance (FSEC) is managed wherein the personnel in charge can update the Fire Safety Checklist on building plans or release a printable copy of the clearance.</p>
+			    	</div>
+			    	<div class="overview">
+			    		<img src="images/portfolio/gogon2.PNG">
+			    	</div>
+			    </div>
+			    <div class="contents">
+			    	<h1><span>03 </span>NOTICES</h1>
+			    	<div class="overview overview-text">
+			    		<h3>CORRECT<span> & </span>COMPLY</h3>
+			    		<p>In this part, there are two types of correction, notice to correct and notice to comply. The findings, defects or deficiencies automatically appears here right after every update of the FSEC. The personnel in charge then can penalize each problem for a certain amount.</p>
+			    		<p>There are many things that I want to fix here, like the alignment of texts and the back button in which only exists in the notices tabs.</p>
+			    	</div>
+			    	<div class="overview">
+			    		<img src="images/portfolio/bfp6.PNG">
+			    	</div>
+			    </div>
+			    <div class="gogon-footer content-footer" onclick="closeNav()">
+			    	<a href="javascript:void(0)">
+			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
+			    	</a>
+			    </div>
+			  </div>
+			</div>
+			<!-- END OF GOGON CONTENT -->
+			<div class="container" onclick="gogonNavOpen()">
 				<div class="bot gogon"></div>
 				<div class="bot overlay-2">
 					<h1>Web</h1>
@@ -378,15 +433,23 @@
 		<!-- End of Footer -->
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">
-function openNav() {
-    document.getElementById("myNav").style.width = "100%";
+function lccfsNavOpen() {
+    document.getElementById("lccfs-nav").style.width = "100%";
     $("body").addClass("overflo");
 }
-
+function gogonNavOpen() {
+    document.getElementById("gogon-nav").style.width = "100%";
+    $("body").addClass("overflo");
+}
 function closeNav() {
-	document.getElementById("myNav").style.width = "0%";
+	document.getElementById("lccfs-nav").style.width = "0%";
+	document.getElementById("gogon-nav").style.width = "0%";
     $("body").removeClass("overflo");
 }
+
+
+
+
 
 $(document).ready(function(){
 	var $root = $('html, body');

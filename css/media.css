@@ -51,8 +51,8 @@
         text-align: center;
     }
     /* PORTFOLIO */
-    .lccfs-overlay a {font-size: 20px}
-    .lccfs-overlay .closebtn {
+    .nav-overlay a {font-size: 20px}
+    .nav-overlay .closebtn {
       font-size: 40px;
       top: 15px;
       right: 35px;
@@ -60,11 +60,15 @@
     h1.content-title {
         font-size: 35px;
     }
-    p.lccfs-extra {
+    p.nav-extra {
         font-size: 100%;
         padding-bottom: 20px;
     }
     .portfolio-content div.lccfs-details {
+        font-size: 120%;
+        padding: 0 10% 0 10%;
+    }
+    .portfolio-content div.gogon-details {
         font-size: 120%;
         padding: 0 10% 0 10%;
     }
