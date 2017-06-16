@@ -347,7 +347,7 @@ h2.right-title ~ p {
     background-size: cover;
 }
 .phage {
-    background: url("../images/portfolio/phage1.png") no-repeat center;
+    background: url("../images/portfolio/phage/phage1.png") no-repeat center;
     background-size: cover;
 }
 .inventory {
@@ -819,3 +819,111 @@ p.gogon-extra {
     color: #2ecc71;
 }
 /* END OF GOGON PORTFOLIO */
+
+/* PHAGE PORTFOLIO */
+p.phage-extra {
+    color: #3498db;
+}
+.portfolio-content div.phage-details span {
+    color: #3498db;
+    font-weight: 600;
+}
+.phage-intro {
+    background-color: #3498db;
+}
+.intro div.phage-circle {
+    border: 10px solid #3498db;
+    background: #2878AD;
+}
+.fa-trophy {
+    color: #FFC930;
+}
+#phage-nav .portfolio-content .contents h1 span,
+#phage-nav .portfolio-content .contents .overview h3 span {
+    color: #3498db;
+}
+.phage-footer {
+    background: #3498db;
+}
+.phage-footer:hover h1 span  {
+    color: #3498db;
+}
+/* END OF PHAGE PORTFOLIO */
+/* INVENTORY PORTFOLIO */
+p.inventory-extra {
+    color: #3498db;
+}
+.portfolio-content div.inventory-details span {
+    color: #3498db;
+    font-weight: 600;
+}
+.inventory-intro {
+    background-color: #3498db;
+}
+.intro div.inventory-circle {
+    border: 10px solid #3498db;
+    background: #2878AD;
+}
+#inventory-nav .portfolio-content .contents h1 span,
+#inventory-nav .portfolio-content .contents .overview h3 span {
+    color: #3498db;
+}
+.inventory-footer {
+    background: #3498db;
+}
+.inventory-footer:hover h1 span  {
+    color: #3498db;
+}
+/* END OF INVENTORY PORTFOLIO */
+/* TYPEAB PORTFOLIO */
+p.typeab-extra {
+    color: #3498db;
+}
+.portfolio-content div.typeab-details span {
+    color: #3498db;
+    font-weight: 600;
+}
+.typeab-intro {
+    background-color: #3498db;
+}
+.intro div.typeab-circle {
+    border: 10px solid #3498db;
+    background: #2878AD;
+}
+#typeab-nav .portfolio-content .contents h1 span,
+#typeab-nav .portfolio-content .contents .overview h3 span {
+    color: #3498db;
+}
+.typeab-footer {
+    background: #3498db;
+}
+.typeab-footer:hover h1 span  {
+    color: #3498db;
+}
+/* END OF TYPEAB PORTFOLIO */
+/* PRESIDENTS PORTFOLIO */
+p.presidents-extra {
+    color: #3498db;
+}
+.portfolio-content div.presidents-details span {
+    color: #3498db;
+    font-weight: 600;
+}
+.presidents-intro {
+    background-color: #3498db;
+}
+.intro div.presidents-circle {
+    border: 10px solid #3498db;
+    background: #2878AD;
+}
+#presidents-nav .portfolio-content .contents h1 span,
+#presidents-nav .portfolio-content .contents .overview h3 span {
+    color: #3498db;
+}
+.presidents-footer {
+    background: #3498db;
+}
+.presidents-footer:hover h1 span  {
+    color: #3498db;
+}
+/* END OF PRESIDENTS PORTFOLIO */

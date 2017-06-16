@@ -72,6 +72,22 @@
         font-size: 120%;
         padding: 0 10% 0 10%;
     }
+    .portfolio-content div.phage-details {
+        font-size: 120%;
+        padding: 0 10% 0 10%;
+    }
+    .portfolio-content div.inventory-details {
+        font-size: 120%;
+        padding: 0 10% 0 10%;
+    }
+    .portfolio-content div.typeab-details {
+        font-size: 120%;
+        padding: 0 10% 0 10%;
+    }
+    .portfolio-content div.presidents-details {
+        font-size: 120%;
+        padding: 0 10% 0 10%;
+    }
 }
 @media only screen and (max-width: 375px) {
     .container {
