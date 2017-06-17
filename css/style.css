@@ -135,7 +135,7 @@ a.nav:after {
   left: 0;
   bottom: 0;
   width: 0;
-  height: 5px;
+  height: 1px;
   background-color: #47c0da;
   content: "";
   transition: width 0.2s;
@@ -158,6 +158,7 @@ a.nav:hover:after {
     background-image: -moz-linear-gradient(top left, #F7F7F7, #EAFBFF);
     background-image: -o-linear-gradient(top left, #F7F7F7, #EAFBFF);
     background-image: linear-gradient(to bottom right, #F7F7F7, #EAFBFF);*/
+    position: relative;
     background: #2b2e3b;
     width: 100%;
     height: 600px;
@@ -926,3 +927,45 @@ p.presidents-extra {
     color: #1abc9c;
 }
 /* END OF PRESIDENTS PORTFOLIO */
+
+ul.colors {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 10px;
+    font-size: 0;
+    list-style-type: none;
+    background-color: #1abc9c;
+}
+ul.colors li {
+    display: inline-block;
+    height: 10px;
+    width: 16%;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    transition: all 0.4s ease;
+}
+ul.colors li:nth-child(1) {
+    background: #f39c12;
+}
+ul.colors li:nth-child(2) {
+    background: #2ecc71;
+}
+ul.colors li:nth-child(3) {
+    background: #3498db;
+}
+ul.colors li:nth-child(4) {
+    background: #e74c3c;
+}
+ul.colors li:nth-child(5) {
+    background: #9b59b6;
+}
+ul.colors li:nth-child(6) {
+    background: #1abc9c;
+}
+ul.colors li:hover {
+    height: 50px;
+}
