@@ -792,7 +792,6 @@ p.lccfs-extra {
 .lccfs-footer:hover h1 span  {
     color: #F3AF3B;
 }
-
 /* GOGON PORTFOLIO */
 p.gogon-extra {
     color: #2ecc71;
@@ -851,79 +850,79 @@ p.phage-extra {
 /* END OF PHAGE PORTFOLIO */
 /* INVENTORY PORTFOLIO */
 p.inventory-extra {
-    color: #3498db;
+    color: #e74c3c;
 }
 .portfolio-content div.inventory-details span {
-    color: #3498db;
+    color: #e74c3c;
     font-weight: 600;
 }
 .inventory-intro {
-    background-color: #3498db;
+    background-color: #e74c3c;
 }
 .intro div.inventory-circle {
-    border: 10px solid #3498db;
-    background: #2878AD;
+    border: 10px solid #e74c3c;
+    background: #9A3228;
 }
 #inventory-nav .portfolio-content .contents h1 span,
 #inventory-nav .portfolio-content .contents .overview h3 span {
-    color: #3498db;
+    color: #e74c3c;
 }
 .inventory-footer {
-    background: #3498db;
+    background: #e74c3c;
 }
 .inventory-footer:hover h1 span  {
-    color: #3498db;
+    color: #e74c3c;
 }
 /* END OF INVENTORY PORTFOLIO */
 /* TYPEAB PORTFOLIO */
 p.typeab-extra {
-    color: #3498db;
+    color: #9b59b6;
 }
 .portfolio-content div.typeab-details span {
-    color: #3498db;
+    color: #9b59b6;
     font-weight: 600;
 }
 .typeab-intro {
-    background-color: #3498db;
+    background-color: #9b59b6;
 }
 .intro div.typeab-circle {
-    border: 10px solid #3498db;
-    background: #2878AD;
+    border: 10px solid #9b59b6;
+    background: #673B79;
 }
 #typeab-nav .portfolio-content .contents h1 span,
 #typeab-nav .portfolio-content .contents .overview h3 span {
-    color: #3498db;
+    color: #9b59b6;
 }
 .typeab-footer {
-    background: #3498db;
+    background: #9b59b6;
 }
 .typeab-footer:hover h1 span  {
-    color: #3498db;
+    color: #9b59b6;
 }
 /* END OF TYPEAB PORTFOLIO */
 /* PRESIDENTS PORTFOLIO */
 p.presidents-extra {
-    color: #3498db;
+    color: #1abc9c;
 }
 .portfolio-content div.presidents-details span {
-    color: #3498db;
+    color: #1abc9c;
     font-weight: 600;
 }
 .presidents-intro {
-    background-color: #3498db;
+    background-color: #1abc9c;
 }
 .intro div.presidents-circle {
-    border: 10px solid #3498db;
-    background: #2878AD;
+    border: 10px solid #1abc9c;
+    background: #117D68;
 }
 #presidents-nav .portfolio-content .contents h1 span,
 #presidents-nav .portfolio-content .contents .overview h3 span {
-    color: #3498db;
+    color: #1abc9c;
 }
 .presidents-footer {
-    background: #3498db;
+    background: #1abc9c;
 }
 .presidents-footer:hover h1 span  {
-    color: #3498db;
+    color: #1abc9c;
 }
 /* END OF PRESIDENTS PORTFOLIO */
