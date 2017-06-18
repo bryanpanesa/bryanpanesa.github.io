@@ -17,6 +17,10 @@
     ul.right-bar {
         margin: 0 auto;
     }
+    .right-bar li a {
+        padding: 20px 15px 20px 15px !important;
+        font-size: 105%;
+    }
     div.about {
         height: 640px;
     }
@@ -54,10 +58,7 @@
         margin-top: 310px;
     }
     .right-bar li a {
-        font-size: 11px;
-    }   
-    .navbar-outer { 
-        height: 120px;
+        padding: 20px 10px 20px 10px !important;
     }
     div.face-banner img {
     	padding-top: 0;	

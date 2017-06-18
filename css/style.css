@@ -93,6 +93,7 @@ header::before {
 }
 .left-bar, .right-bar {
     position: relative;
+    top: 20px;
     display: inline-block;
     vertical-align: top;
 }
@@ -103,7 +104,7 @@ header::before {
     padding: 0;
 }
 .left-bar a.logo img{
-	padding: 10px;
+	padding: 5px 10px 10px 10px;
 }
 .left-bar li {
 	float: left;
@@ -185,19 +186,36 @@ a.nav:hover::after {
     width: 100%;
     height: 600px;
     overflow: hidden;
-    position: relative;
 }
-h1.bry {
-    color: #47c0da;
+ul.header-name {
+    border: 1px solid white;
+    margin: 0 20%;
+}
+ul.header-name li {
+    display: inline-block;
     text-align: center;
-    vertical-align: middle; /*vertically align child of div */
-    font-size: 50px;
-    text-transform: capitalize;    /*text-shadow: 0 0 0.313em #47c0da, 0 0 0.625em #47c0da;*/
-    font-weight: 400;
+    padding: 0 15px;
 }
-div.face-banner {
+ul.header-name li:nth-child(6) {
+    padding-left: 30px;
+}
+ul.header-name li h1 {
+    color: #47c0da;
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 50px;
+}
+ul.header-name li h1.bry:hover {
+    
+}
+div.header-banner {
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
 	margin: 0 auto;
-	text-align: center
+	text-align: center;
 }
 div.banner blockquote.quote {
 	color: #74b1be;
@@ -524,7 +542,9 @@ div.bot > h1::after {
 .contact {
     text-align: center;
     overflow-x: hidden;
-    background: linear-gradient(to top left, #24C6DC, #514A9D);
+    /*background: linear-gradient(to top left, #24C6DC, #514A9D);*/
+    background-image: linear-gradient(to bottom,#002f4b,#dc4225);
+    
     margin-top: 50px;
     /*transform: rotate(-3deg);*/
     width: 100%;  
