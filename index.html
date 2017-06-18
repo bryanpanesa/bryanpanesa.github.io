@@ -15,6 +15,8 @@
 
 		<link rel="shortcut icon" href="images/bp_colored.png" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://raw.githubusercontent.com/l-lin/font-awesome-animation/master/dist/font-awesome-animation.min.css">
+		<link rel="stylesheet" href="css/font-awesome-animation.min.css">
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link ref="stylesheet" type="text/css" href="css/media.css"
@@ -22,50 +24,45 @@
 	</head>
 
 <body>
-	<header>
-			<div class="navbar-outer">
-                <ul class="left-bar">
-                    <li>
-                        <a href="index.html" class="logo">
-							<img src="images/bp_colored.png" align="left" alt="Bryan Panesa logo">
-						</a>
-                    </li>
-                    <li class="named">
-                        <span class="bryan">bryan</span><span class="panesa">panesa</span>
-                    </li>
-                </ul>
-                <ul class="right-bar" id="right-bar-collapse">
-                    <li><a href="#contact" class="nav">contact</a></li>
-                    <li><a href="#portfolio" class="nav">portfolio</a></li>
-                    <li><a href="#skills" class="nav">skills</a></li>
-                    <li><a href="#about" class="active nav">about</a></li>
-                </ul>
-            </div>	
+	<header id="pageTop">
+			<a class="nav" href="#pageTop" id="toTop">
+				<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
+			</a>
+            <ul class="left-bar navbar">
+                <li>
+                    <a href="index.html" class="logo">
+						<img src="images/bp_colored.png" align="left" alt="Bryan Panesa logo">
+					</a>
+                </li>
+                <li class="named">
+                    <span class="bryan">bryan</span><span class="panesa">panesa</span>
+                </li>
+            </ul>
+            <ul class="right-bar navbar" id="right-bar-collapse">
+                <li><a href="#contact" class="nav">contact</a></li>
+                <li><a href="#portfolio" class="nav">portfolio</a></li>
+                <li><a href="#skills" class="nav">skills</a></li>
+                <li><a href="#about" class="nav">about</a></li>
+            </ul>
+       	<!-- BANNER -->
+           <div class="banner">
+           	<div class="face-banner">
+               	<h1 class="bry">Bryan Panesa</h1>
+               	<blockquote class="quote">
+               		<i class="fa fa-quote-left fa-1x" aria-hidden="true"></i>
+               		 Magic happens when you're wired
+               		<i class="fa fa-quote-right fa-1x" aria-hidden="true"></i>
+               	</blockquote>
+               </div>
+               <ul class="colors">
+               	<li></li><li></li><li></li><li></li><li></li><li></li>
+               </ul>
+               </div>
+           </div>
+       	<!-- End of Banner -->
     </header>	
 	<!-- End of Header -->
 
-	<!-- BANNER -->
-    <div class="banner">
-    	<div class="face-banner">
-    		<img src="images/face.png" alt="Funny face">
-        	<h1 class="bry">Bryan Panesa</h1>
-        	<p class="quote">
-        		<i class="fa fa-quote-left fa-1x" aria-hidden="true"></i>
-        		 Magic happens when you're wired
-        		<i class="fa fa-quote-right fa-1x" aria-hidden="true"></i>
-        	</p>
-        </div>
-        <ul class="colors">
-        	<li></li>
-        	<li></li>
-        	<li></li>
-        	<li></li>
-        	<li></li>
-        	<li></li>
-        </div>
-    </div>
-	<!-- End of Banner -->
-	
 	<!-- about -->
 	<div class="about" id="about">
 		<h1 class="sections">About</h1>
@@ -76,11 +73,13 @@
 					<h2 class="left-title">Education</h2>
 
 					<p class="foo">Bachelor of Science in Computer Science</p>
-					<p>Bicol University College of Science</p>
-					<p>S.Y. 2014 - 2017</p>
+					<p><i class="fa fa-university"></i>
+					Bicol University College of Science</p>
+					<p><i class="fa fa-calendar "></i> S.Y. 2014 - 2017</p>
 					<p class="foo">Bachelor of Science in Computer Science</p>
-					<p>Bicol University Polangui Campus</p>
-					<p>S.Y. 2013 - 2014</p>
+					<p><i class="fa fa-university"></i>
+					Bicol University Polangui Campus</p>
+					<p><i class="fa fa-calendar "></i> S.Y. 2013 - 2014</p>
 				</div>
 				<div class="about2">
 					<h2 class="right-title">In a few words</h2>
@@ -94,7 +93,7 @@
 					<div class="center-button">
 					<a class="resume-link" href="images/Bryan Panesa-min.pdf" download>
 						<button class="button button2">
-							<span><i class="fa fa-download"></i> Download Resume </span>
+							<span><i class="fa fa-download faa-vertical animated faa-slow"></i> Download Resume </span>
 						</button>
 					</a>
 					</div>
@@ -409,7 +408,7 @@
 			    	<div class="circle phage-circle"><i class="fa fa-info-circle"></i></div>
 			    	<p><span>Phagebiotics</span> intends to increase the awareness of using too much antibiotics that makes bacteria antibiotic-resistant and gain knowledge about bacteriophage that serves as an alternative in eliminating the so called ”Superbugs” or the antibiotic-resistant bacteria.
 			    	The foremost objective of this study is to design and develop a game that aims to raise awareness of the battle against antibiotic-resistant bacteria and models it as a desktop game that is not only great and fun to play but also scientifically inclined.</p>
-			    	<p>The game was awarded as the <i class="fa fa fa-trophy"></i> <span>Best Undergraduate Thesis under Global Competitiveness</span> during the College Student Research & Development Forum (1st Place), March 4, 2017</p>
+			    	<p>The game was awarded as the <i class="fa fa-trophy faa-tada animated"></i> <span>Best Undergraduate Thesis under Global Competitiveness</span> during the College Student Research & Development Forum (1st Place), March 4, 2017</p>
 			    	<p>The game was also presented during the <span>13th Bicol University Student Research & Development Forum</span>, March 10, 2017</p> 
 			    </div>
 			    <div class="contents">
@@ -802,13 +801,13 @@
 		<div class="contact" id="contact">
 			<div>
 				<a class="contact-icons" href="https://www.facebook.com/IvexBrykzJayRo" title="To Bryan's Facebook profile!">
-					<i class="fa fa-facebook fa-3x" aria-hidden="true"></i>
+					<i class="fa fa-facebook fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
 				</a>
 				<a class="contact-icons" href="https://twitter.com/ivexbrykzjayro" title="To Bryan's Twitter profile!">
-					<i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+					<i class="fa fa-twitter fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
 				</a>
 				<a class="contact-icons" href="https://www.freecodecamp.com/bryanpanesa" title="To Bryan's Free Code Camp profile!">
-					<i class="fa fa-free-code-camp fa-3x" aria-hidden="true"></i>
+					<i class="fa fa-free-code-camp fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
 				</a>
 			</div>
 			<div>
@@ -818,13 +817,13 @@
 			</div>
 			<div>
 				<a class="contact-icons" href="mailto:bryanjay.panesa@bicol-u.edu.ph" target="_blank" title="bryanjay.panesa@bicol-u.edu.ph">
-					<i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+					<i class="fa fa-envelope fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
 				</a>
 				<a class="contact-icons" href="http://linkedin.com/in/bryan-jay-b-panesa-26874512a" title="To Bryan's LinkedIn profile!">
-					<i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+					<i class="fa fa-linkedin fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
 				</a>
 				<a class="contact-icons" href="https://github.com/bryanpanesa" title="To Bryan's GitHub profile!">
-					<i class="fa fa-github fa-3x" aria-hidden="true"></i>
+					<i class="fa fa-github fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
 				</a>
 			</div>
 		</div>
@@ -838,8 +837,19 @@
 			</div>
 		</div>
 		<footer>
+		<p>
+			<ul>
+			    <li><a href="#contact">contact</a></li>
+			    <li><a href="#portfolio">portfolio</a></li>
+			    <li><a href="#skills">skills</a></li>
+			    <li><a href="#about">about</a></li>
+			</ul>
+		</p>
 				<p>This website is open-source. You can find it in my github <a class="underlined" href="https://github.com/bryanpanesa/bryanpanesa.github.io" title="personal-website repo">repository</a>.</p>
-				<p>bryanpanesa &copy 2017 | Made with <i class="fa fa-heart"></i> & <i class="fa fa-spinner fa-pulse fa-fw"></i></p>
+				<p>bryanpanesa <i class="fa fa-copyright faa-spin animated-hover" aria-hidden="true"></i> 2017 | Made with 
+					<i class="fa fa-heart faa-pulse animated faa-fast"></i>
+				</p>
+				
 		</footer>
 		<!-- End of Footer -->
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
@@ -894,14 +904,21 @@ var esc = $.Event("keydown", {
 	});
 //END OF ESC TRIGGER FUNCTION
 
-
 $(document).ready(function(){
 	var $root = $('html, body');
-	$('.nav').click(function() {
+	$('.nav, #toTop').click(function() {
 	    $root.animate({
 	        scrollTop: $( $.attr(this, 'href') ).offset().top
 	    }, 500);
 	    return false;
+	});
+	// SCROLL TO TOP ICON FADE AFTER SCROLL DOWN
+	$(window).scroll(function() {
+	    if ($(this).scrollTop()) {
+	        $('#toTop').fadeIn();
+	    } else {
+	        $('#toTop').fadeOut();
+	    }
 	});
 });
 </script>

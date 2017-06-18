@@ -47,22 +47,52 @@ Red color: #e74c3c
 h1, h2, h3, h4, h5, h6, p{
 	color: #20515b;
 }
-/* HEADER */
-
-
-.header {
-    overflow: hidden;
+::-moz-selection {
+    color: red;
+    background: yellow;
 }
-.navbar-outer {
+::selection {
+    color: yellow;
+    background: tomato;
+}
+/* TO TOP */
+#toTop {
+    padding: 5px 3px;
+    color: #000;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    display: none;
+    cursor: pointer;
+    padding: 15px;
+    z-index: 2;
+}
+#toTop:hover::after {
+    width: 0; 
+}
+/* HEADER */
+header {
+    position: relative;
+    overflow: hidden;
     text-align: center;
-    background: #2f3241;
-    border-bottom-color: #1a1b23;
-	/*border-bottom: 8px solid #D2F079;*/
-/*	box-shadow: 1px 5px 10px rgba(0,0,0,0.2);*/
+    background: url(../images/bry.png) no-repeat center;
+    /*border-bottom: 8px solid #D2F079;*/
+/*  box-shadow: 1px 5px 10px rgba(0,0,0,0.2);*/
     box-shadow: 12px 10px 20px 0px rgba(46,61,73,0.15);
     margin: 0 auto;
 }
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom,#002f4b,#002f4b,#dc4225);
+    opacity: .7; 
+}
 .left-bar, .right-bar {
+    position: relative;
     display: inline-block;
     vertical-align: top;
 }
@@ -117,19 +147,11 @@ h1, h2, h3, h4, h5, h6, p{
     text-decoration: none;
     color: #74b1be;
 }
-/*a.nav:hover {
-	color: #47c0da;
-    border-bottom: 3px solid #f39c12;
-}
-a.nav:active {
-	color: #47c0da;
-}*/
-
 a.nav {
   position: relative;
   color: #74b1be;
 }
-a.nav:after {
+a.nav::after {
   display: block;
   position: absolute;
   left: 0;
@@ -143,7 +165,7 @@ a.nav:after {
 a.nav:hover {
   color: #47c0da;
 }
-a.nav:hover:after {
+a.nav:hover::after {
   width: 100%;
 }
  
@@ -159,7 +181,7 @@ a.nav:hover:after {
     background-image: -o-linear-gradient(top left, #F7F7F7, #EAFBFF);
     background-image: linear-gradient(to bottom right, #F7F7F7, #EAFBFF);*/
     position: relative;
-    background: #2b2e3b;
+    background-size: cover;
     width: 100%;
     height: 600px;
     overflow: hidden;
@@ -177,13 +199,7 @@ div.face-banner {
 	margin: 0 auto;
 	text-align: center
 }
-div.face-banner img {
-	width: 150px;
-	display: block;
-    margin: 0 auto;
-    padding: 100px 0 0 0;
-}
-div.banner p.quote {
+div.banner blockquote.quote {
 	color: #74b1be;
 	padding: 0 60px;
 	font-size: 20px;
@@ -540,17 +556,34 @@ h1.contact-white, .contact div > p {
     color: #fff;
 }
 footer {
-    height: 150px;
+    height: 100%;
     background: #2f3241;
     text-align: center;
-}
-footer  p:nth-child(1) {
-    padding-top: 50px;
 }
 footer > p {
     padding: 0 15px;
     font-weight: 100;
     color: rgba(255,255,255,0.75);
+}
+footer > p:last-child {
+    padding-bottom: 5px;
+}
+footer ul {
+    padding: 25px 0 0 0;
+}
+footer ul li {
+    padding: 0 10px;
+    display: inline-block;
+    font-weight: 300;
+    margin: 0 auto !important;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+footer ul li a:hover {
+    color: #47c0da;
 }
 .fa-heart {
     color: tomato;
@@ -560,7 +593,7 @@ footer > p {
     position: relative;
     color: rgba(255,255,255,0.75);
 }
-.underlined:after {
+.underlined::after {
     content: '';
     width: 100%;
     position: absolute;
@@ -623,6 +656,7 @@ p.lccfs-extra {
     background-color: #1a1a1a;
     overflow-x: hidden;
     transition: all 0.5s ease;
+    z-index: 3;
 }
 .portfolio-content {
     position: relative;
