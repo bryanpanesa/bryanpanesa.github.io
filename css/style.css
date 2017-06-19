@@ -127,7 +127,7 @@ header {
     position: relative;
     overflow: hidden;
     text-align: center;
-    background: url(../images/bry.jpg) no-repeat center;
+    background: url(../images/bry.jpg) repeat center;
     /*border-bottom: 8px solid #D2F079;*/
 /*  box-shadow: 1px 5px 10px rgba(0,0,0,0.2);*/
     box-shadow: 12px 10px 20px 0px rgba(46,61,73,0.15);
@@ -240,14 +240,28 @@ a.nav:hover::after {
     overflow: hidden;
 }
 ul.header-name {
-    border: 1px solid #47c0da;
-    margin: 0 10%;
-    background: rgba(135,214,231,0.1);
+    border: 1px dotted rgba(71, 192, 218,0.3);
+    margin: 0 23% !important;
+    padding: 0;
+    background: rgba(71, 192, 218,0.1);
+    border-radius: 3px;
 }
 ul.header-name li {
     display: inline-block;
     text-align: center;
-    padding: 0 10px;
+    padding: 0 2px;
+}
+ul.header-name li:nth-child(1) h1.bry {
+    font-weight: 300;
+    transform: scale(1.5);
+}
+ul.header-name li:nth-child(6) h1.bry {
+    font-weight: 300;
+    transform: scale(1.5);
+}
+ul.header-name li:nth-child(9) h1.bry {
+    font-weight: 300;
+    transform: scale(1.5);
 }
 ul.header-name li:nth-child(6) {
     padding-left: 40px;
@@ -260,9 +274,28 @@ ul.header-name li h1 {
     font-weight: 100;
     font-size: 50px;
 }
-ul.header-name li h1.bry:hover {
-    background: rgba(135,214,231,0.5);
+ul.header-name li:hover h1.bry {
+    content: "ryan is so handsome";
+    transition: all 0.3s ease;
+    transform: scale(2);
+    cursor: pointer;
+    font-weight: 600;
 }
+a.nav::after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: #47c0da;
+  content: "";
+  transition: width 0.2s;
+}
+a.nav:hover::after {
+  wi
+}
+
 div.header-banner {
     position: absolute;
     top: 60%;
@@ -273,9 +306,14 @@ div.header-banner {
 	text-align: center;
 }
 div.banner blockquote.quote {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
 	color: #74b1be;
 	padding: 0 60px;
 	font-size: 20px;
+    font-weight: 100;
 }
 
 
@@ -437,7 +475,7 @@ h2.right-title ~ p {
     background-size: cover;
 }
 .phage {
-    background: url("../images/portfolio/phage/phage2.png") no-repeat center;
+    background: url("../images/portfolio/phage/phage2.jpg") no-repeat center;
     background-size: cover;
 }
 .inventory {
