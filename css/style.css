@@ -19,6 +19,43 @@ Red color: #e74c3c
 .thin {
     font-weight: 100;
 }
+.thick {
+    font-weight: bold;
+}
+div.rect {
+    margin-top: -30px;
+    color: #fff !important;
+}
+div.rect ul {
+    padding: 0 0 15px 0;
+}
+div.rect ul li {
+    display: inline-block !important;
+    padding: 7px 15px 7px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+div.lccfs-group ul li {
+    background: #F39C12;
+}
+div.grading-group ul li {
+    background: #1C7D45;
+}
+div.phage-group ul li {
+    background: #2878AD;
+}
+div.inventory-group ul li {
+    background: #9A3228;
+}
+div.typeab-group ul li {
+    background: #673B79;
+}
+div.presidents-group ul li {
+    background: #117D68;
+}
+.text-center {
+    text-align: center !important;
+}
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -75,7 +112,7 @@ header {
     position: relative;
     overflow: hidden;
     text-align: center;
-    background: url(../images/bry.png) no-repeat center;
+    background: url(../images/bry.jpg) no-repeat center;
     /*border-bottom: 8px solid #D2F079;*/
 /*  box-shadow: 1px 5px 10px rgba(0,0,0,0.2);*/
     box-shadow: 12px 10px 20px 0px rgba(46,61,73,0.15);
