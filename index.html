@@ -16,7 +16,6 @@
 		<link rel="shortcut icon" href="images/bp_colored.png" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
-		<script type="text/javascript" src="js/wow.min.js"></script>
 	</head>
 
 <body>
@@ -87,25 +86,25 @@
 					<img class="gradhat" src="images/education.png" alt="Education">
 					<h2 class="left-title">Education</h2>
 
-					<p class="foo">Bachelor of Science in Computer Science</p>
-					<p><i class="fa fa-university"></i>
+					<p class="foo wow bounceInLeft">Bachelor of Science in Computer Science</p>
+					<p class="wow bounceInLeft"><i class="fa fa-university"></i>
 					Bicol University College of Science</p>
-					<p><i class="fa fa-calendar "></i> S.Y. 2014 - 2017</p>
-					<p class="foo">Bachelor of Science in Computer Science</p>
-					<p><i class="fa fa-university"></i>
+					<p class="wow bounceInLeft"><i class="fa fa-calendar "></i> S.Y. 2014 - 2017</p>
+					<p class="foo wow bounceInLeft" data-wow-delay=".1s">Bachelor of Science in Computer Science</p>
+					<p class="wow bounceInLeft" data-wow-delay=".1s"><i class="fa fa-university"></i>
 					Bicol University Polangui Campus</p>
-					<p><i class="fa fa-calendar "></i> S.Y. 2013 - 2014</p>
+					<p class="wow bounceInLeft" data-wow-delay=".1s"><i class="fa fa-calendar "></i> S.Y. 2013 - 2014</p>
 				</div>
 				<div class="about2">
 					<h2 class="right-title">In a few words</h2>
-					<p><span class="linked">Bryan</span> is a fresh graduate seeking a challenging career in which he can hone his skills, help him build quality experience, build a passion and find new friends.</p>
+					<p class="wow bounceInRight"><span class="linked">Bryan</span> is a fresh graduate seeking a challenging career in which he can hone his skills, help him build quality experience, build a passion and find new friends.</p>
 						
-					<p><span class="linked">Web development</span> is where he specializes the most. Through <a class="linked" rel="nofollow" href="https://gitter.im/" alt="gitter">gitter</a> and social media groups, he spends most of his time learning and helping others. He believes that there is knowlegde in helping. By helping others, solving their problems, you retain or even improve your own knowledge.</p>
+					<p class="wow bounceInRight" data-wow-delay=".2s"><span class="linked">Web development</span> is where he specializes the most. Through <a class="linked" rel="nofollow" href="https://gitter.im/" alt="gitter">gitter</a> and social media groups, he spends most of his time learning and helping others. He believes that there is knowlegde in helping. By helping others, solving their problems, you retain or even improve your own knowledge.</p>
 
-					<p>He is interested in everything related to science, technology and computers. While not working, he spends his time playing computer games or some sport.</p>
-					<p>"Knowledge comes from helping others"</p>
+					<p class="wow bounceInRight" data-wow-delay=".3s">He is interested in everything related to science, technology and computers. While not working, he spends his time playing computer games or some sport.</p>
+					<p class="wow bounceInRight" data-wow-delay=".4s">"Knowledge comes from helping others"</p>
 					
-					<div class="center-button">
+					<div class="center-button wow bounceInRight" data-wow-delay=".5s">
 					<a class="resume-link" href="images/Bryan Panesa-min.pdf" download>
 						<button class="button button2">
 							<span><i class="fa fa-download faa-vertical animated faa-slow"></i> Download Resume </span>
@@ -855,7 +854,7 @@
 		<br>
 			<!-- END of portfolio -->
 		<div class="contact" id="contact">
-			<div>
+			<div class="wow bounceInLeft">
 				<a class="contact-icons" href="https://www.facebook.com/IvexBrykzJayRo" title="To Bryan's Facebook profile!">
 					<i class="fa fa-facebook fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
 				</a>
@@ -871,7 +870,7 @@
 				<p class="contact-white">I'm always looking to connect and chat with new people.</p>
 				<p>Feel free to reach out.</p>
 			</div>
-			<div>
+			<div class="wow bounceInRight">
 				<a class="contact-icons" href="mailto:bryanjay.panesa@bicol-u.edu.ph" target="_blank" title="bryanjay.panesa@bicol-u.edu.ph">
 					<i class="fa fa-envelope fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
 				</a>
@@ -885,7 +884,7 @@
 		</div>
 			<!-- END of contact --><br>
 		<div class="extra">
-			<div class="col-panda panda">
+			<div class="col-panda panda wow bounceInLeft" data-wow-delay="1s">
 				<img src="images/redpanda.jpg" alt="Red Panda">
 			</div>
 			<div class="col-panda">
@@ -896,10 +895,10 @@
 		<footer>
 		<p>
 			<ul>
+				<li><a href="#about" class="nav">about</a></li>
+				<li><a href="#skills" class="nav">skills</a></li>
+				<li><a href="#portfolio" class="nav">portfolio</a></li>
 			    <li><a href="#contact" class="nav">contact</a></li>
-			    <li><a href="#portfolio" class="nav">portfolio</a></li>
-			    <li><a href="#skills" class="nav">skills</a></li>
-			    <li><a href="#about" class="nav">about</a></li>
 			</ul>
 		</p>
 				<p>This website is open-source. You can find it in my github <a class="underlined" href="https://github.com/bryanpanesa/bryanpanesa.github.io" title="personal-website repo">repository</a>.</p>
@@ -909,9 +908,18 @@
 				
 		</footer>
 		<!-- End of Footer -->
+<script type="text/javascript" src="js/wow.min.js"></script>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script> 
-	new WOW().init(); 
+	wow = new WOW(
+	{
+	    boxClass: 'wow',
+	    animateClass: 'animated', 
+	    offset: 0,
+	    mobile: true,
+	    live: true
+	});
+	wow.init();
 </script>
 <script type="text/javascript">
 function lccfsNavOpen() {
