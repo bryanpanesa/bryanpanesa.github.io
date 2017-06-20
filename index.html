@@ -15,6 +15,8 @@
 
 		<link rel="shortcut icon" href="images/bp_colored.png" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+		<script type="text/javascript" src="js/wow.min.js"></script>
 	</head>
 
 <body>
@@ -43,13 +45,13 @@
             </ul>
        	<!-- BANNER -->
            <div class="banner">
-	           <blockquote class="quote">
+	           <blockquote class="quote wow bounceInRight">
 	           	<i class="fa fa-quote-left fa-1x" aria-hidden="true"></i>
 	           	 Magic happens when you're wired
 	           	<i class="fa fa-quote-right fa-1x" aria-hidden="true"></i>
 	           </blockquote>
            	<div class="header-banner">
-           		<ul class="header-name">
+           		<ul class="header-name wow bounceInLeft">
            			<li><h1 class="😲">B</h1></li>
            			<li><h1 class="😮">R</h1></li>
            			<li><h1 class="😦">Y</h1></li>
@@ -121,9 +123,8 @@
 		<hr class="hrs">
 		<div class="skills-col">
 			<div class="skill-sec">
-				<div class="rec1 rec"></div>
+				<div class="col wow bounceInUp">
 				<h3>Web Development</h3>
-				<div class="col col-inline">
 					<div class="html">
 						<img class="skill-img" src="images/icons/html.jpg" alt="HyperText Markup Language 5">
 						<p>HTML</p>
@@ -141,7 +142,7 @@
 						<p>PHP</p>
 					</div>
 				</div><br>
-				<div class="col col-inline">
+				<div class="col wow bounceInUp" data-wow-delay=".4s">
 					<h3>Framework & Library</h3>
 					<div class="bootstrap">
 						<img class="skill-img" src="images/icons/bootstrap.jpg" alt="Bootstrap Framework">
@@ -152,7 +153,7 @@
 						<p>Jquery</p>
 					</div>
 				</div>
-				<div class="col">
+				<div class="col wow bounceInUp" data-wow-delay=".5s">
 					<h3>Data</h3>
 					<div class="mysql">
 						<img class="skill-img" src="images/icons/mysql.jpg" alt="MySQL">
@@ -163,7 +164,7 @@
 						<p>SQL</p>
 					</div>
 				</div>
-				<div class="col">
+				<div class="col wow bounceInUp" data-wow-delay=".6s">
 					<h3>Content Management System</h3>
 					<div class="wordpress">
 						<img class="skill-img" src="images/icons/wordpress.jpg" alt="Wordpress CMS">
@@ -174,7 +175,7 @@
 						<p>Joomla</p>
 					</div>
 				</div>
-				<div class="col">
+				<div class="col wow bounceInUp" data-wow-delay=".7s">
 					<h3>Operating System</h3>
 					<div class="windows">
 						<img class="skill-img" src="images/icons/windows.jpg" alt="Windows OS">
@@ -189,7 +190,7 @@
 						<p>Linux</p>
 					</div>
 				</div>
-				<div class="col">
+				<div class="col wow bounceInUp" data-wow-delay=".8s">
 				<h3>Others</h3>
 					<div class="sass">
 						<img class="skill-img" src="images/icons/sass.jpg" alt="C++">
@@ -289,7 +290,7 @@
 			  </div>
 			</div>
 			<!-- END OF LCCFS CONTENT -->
-				<div class="container" onclick="lccfsNavOpen()">
+				<div class="container wow bounceInUp" data-wow-delay=".1s" onclick="lccfsNavOpen()">
 					<div class="bot lccfs"></div>
 					<div class="bot overlay-1">
 						<h1>Web</h1>
@@ -407,7 +408,7 @@
 			  </div>
 			</div>
 			<!-- END OF GOGON CONTENT -->
-			<div class="container" onclick="gogonNavOpen()">
+			<div class="container wow bounceInUp" data-wow-delay=".2s" onclick="gogonNavOpen()">
 				<div class="bot gogon"></div>
 				<div class="bot overlay-2">
 					<h1>Web</h1>
@@ -596,7 +597,7 @@
 			  </div>
 			</div>
 			<!-- END OF PHAGE CONTENT -->
-			<div class="container" onclick="phageNavOpen()">
+			<div class="container wow bounceInUp" data-wow-delay=".3s" onclick="phageNavOpen()">
 				<div class="bot phage"></div>
 				<div class="bot overlay-3">
 					<h1>Game</h1>
@@ -671,7 +672,7 @@
 			  </div>
 			</div>
 			<!-- END OF INVENTORY CONTENT -->
-			<div class="container" onclick="inventoryNavOpen()">
+			<div class="container wow bounceInUp" data-wow-delay=".7s" onclick="inventoryNavOpen()">
 				<div class="bot inventory"></div>
 				<div class="bot overlay-4">
 					<h1>Web</h1>
@@ -766,7 +767,7 @@
 			  </div>
 			</div>
 			<!-- END OF TYPEAB CONTENT -->
-			<div class="container" onclick="typeabNavOpen()">
+			<div class="container wow bounceInUp" data-wow-delay=".6s" onclick="typeabNavOpen()">
 				<div class="bot typeab"></div>
 				<div class="bot overlay-5">
 					<h1>Web</h1>
@@ -839,7 +840,7 @@
 			  </div>
 			</div>
 			<!-- END OF PRESIDENTS CONTENT -->
-			<div class="container" onclick="presidentsNavOpen()">
+			<div class="container wow bounceInUp" data-wow-delay=".5s" onclick="presidentsNavOpen()">
 				<div class="bot presidents"></div>
 				<div class="bot overlay-6">
 					<h1>Web</h1>
@@ -909,6 +910,9 @@
 		</footer>
 		<!-- End of Footer -->
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script> 
+	new WOW().init(); 
+</script>
 <script type="text/javascript">
 function lccfsNavOpen() {
     document.getElementById("lccfs-nav").style.width = "100%";
