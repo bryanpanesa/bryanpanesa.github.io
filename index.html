@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" 🔥="Aha! Why are you here? Who are you? Just joking, you can 👀 freely 😏😜. 💩💩💩💩💩💩>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
@@ -50,20 +50,20 @@
 	           </blockquote>
            	<div class="header-banner">
            		<ul class="header-name">
-           			<li><h1 class="bry">B</h1></li>
-           			<li><h1 class="bry">R</h1></li>
-           			<li><h1 class="bry">Y</h1></li>
-           			<li><h1 class="bry">A</h1></li>
-           			<li><h1 class="bry">N</h1></li>
-           			<li><h1 class="bry">J</h1></li>
-           			<li><h1 class="bry">A</h1></li>
-           			<li><h1 class="bry">Y</h1></li>
-           			<li><h1 class="bry">P</h1></li>
-           			<li><h1 class="bry">A</h1></li>
-           			<li><h1 class="bry">N</h1></li>
-           			<li><h1 class="bry">E</h1></li>
-           			<li><h1 class="bry">S</h1></li>
-           			<li><h1 class="bry">A</h1></li>
+           			<li><h1 class="😲">B</h1></li>
+           			<li><h1 class="😮">R</h1></li>
+           			<li><h1 class="😦">Y</h1></li>
+           			<li><h1 class="😯">A</h1></li>
+           			<li><h1 class="😜">N</h1></li>
+           			<li><h1 class="😉">J</h1></li>
+           			<li><h1 class="😛">A</h1></li>
+           			<li><h1 class="😉">Y</h1></li>
+           			<li><h1 class="😛">P</h1></li>
+           			<li><h1 class="😝">A</h1></li>
+           			<li><h1 class="😆">N</h1></li>
+           			<li><h1 class="😏">E</h1></li>
+           			<li><h1 class="💩">S</h1></li>
+           			<li><h1 class="💩">A</h1></li>
            		</ul>
                	
             </div>
@@ -779,7 +779,7 @@
 			</div>
 			<!-- PRESIDENTS CONTENT -->
 			<div id="presidents-nav" class="nav-overlay">
-			  <a href="https://github.com/bryanpanesa/ph-presidents-tribute">
+			  <a href="https://github.com/bryanpanesa/ph-presidents-tribute" id="topNav">
 			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
 			  </a>
 			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -800,7 +800,7 @@
 			    	</div>
 			    </div>
 
-			    <div class="contents">
+			    <div class="contents" id="as">
 			    	<h1><span>01 </span>THE PAGE</h1>
 			    	<div class="overview">
 			    		<img src="images/portfolio/presidents1.PNG">
@@ -830,6 +830,7 @@
 			    		<p>One thing I learned from this project is that not all images from <a class="linked" href="https://images.google.com/" title="Google Images">Google Images</a> are always up and running. </p>
 			    	</div>
 			    </div>
+			    <a class="" id="navp" href="#topNav" >navvv</a>
 			    <div class="content-footer presidents-footer" onclick="closeNav()">
 			    	<a href="javascript:void(0)">
 			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
@@ -963,6 +964,13 @@ $(document).ready(function(){
 	var $root = $('html, body');
 	$('.nav, #toTop').click(function() {
 	    $root.animate({
+	        scrollTop: $( $.attr(this, 'href') ).offset().top
+	    }, 500);
+	    return false;
+	});
+	var $rootp = $('.nav-overlay');
+	$('#navp').click(function() {
+	    $rootp.animate({
 	        scrollTop: $( $.attr(this, 'href') ).offset().top
 	    }, 500);
 	    return false;
