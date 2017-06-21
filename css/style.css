@@ -191,17 +191,15 @@ h1, h2, h3, h4, h5, h6, p{
 #toTop:hover::after {
     width: 0; 
 }
-#toTops {
+.toTops {
     padding: 5px 3px;
     color: #74b1be;
-    position: fixed;
     bottom: 20px;
     right: 40px;
-    display: none;
     cursor: pointer;
     padding: 15px;
 }
-#toTops:hover::after {
+.toTops:hover::after {
     width: 0; 
 }
 /* HEADER */
