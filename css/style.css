@@ -534,6 +534,7 @@ h2.right-title ~ p {
     box-shadow: 5px 5px 25px rgba(46,61,73,0.5);
     transition: all 0.3s ease;
     cursor: pointer;
+    overflow: hidden;
 }
 .container:hover {
     box-shadow: 2px 4px 5px rgba(46,61,73,0.2);
@@ -547,32 +548,67 @@ h2.right-title ~ p {
     left: 0;
     width: 100%;
     height: 250px;
+    background-size: cover;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
+.overflower {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    overflow: hidden;
+}
+.container:hover .bot {
+	border-radius: 0;
+}
 .lccfs {
     background: url("../images/portfolio/bfp1.PNG") no-repeat center;
-    background-size: cover;
+    transition: all 0.3s ease;
+}
+.container:hover .lccfs {
+	transform:  scale(1.1);
 }
 .gogon {
     background: url("../images/portfolio/gogon1.PNG") no-repeat center;
-    background-size: cover;
+    transition: all 0.3s ease;
+}
+.container:hover .gogon {
+	transform:  scale(1.1);
 }
 .phage {
     background: url("../images/portfolio/phage/phage2.jpg") no-repeat center;
-    background-size: cover;
+    transition: all 0.3s ease;
+}
+.container:hover .phage {
+	transform:  scale(1.1);
 }
 .inventory {
     background: url("../images/portfolio/crud1.PNG") no-repeat center;
-    background-size: cover;
+    transition: all 0.3s ease;
+}
+.container:hover .inventory {
+	transform:  scale(1.1);
 }
 .typeab {
     background: url("../images/portfolio/type1.PNG") no-repeat center;
-    background-size: cover;
+    transition: all 0.3s ease;
+}
+.container:hover .typeab {
+	transform:  scale(1.1);
 }
 .presidents {
     background: url("../images/portfolio/presidents1.PNG") no-repeat center;
-    background-size: cover;
+    transition: all 0.3s ease;
+}
+.container:hover .presidents {
+	transform:  scale(1.1);
 }
 .overlay-1 {
     background-color: #f39c12;
@@ -604,23 +640,23 @@ h2.right-title ~ p {
     opacity: 0.8;
     transition: all 0.3s ease;
 }
-.overlay-1:hover {
-    opacity: 0;
+.container:hover .overlay-1 {    
+    transform: translateY(250px);
 }
-.overlay-2:hover {
-    opacity: 0;
+.container:hover .overlay-2 {    
+    transform: translateY(250px);
 }
-.overlay-3:hover {
-    opacity: 0;
+.container:hover .overlay-3 {    
+    transform: translateY(250px);
 }
-.overlay-4:hover {
-    opacity: 0;
+.container:hover .overlay-4 {    
+    transform: translateY(250px);
 }
-.overlay-5:hover {
-    opacity: 0;
+.container:hover .overlay-5 {    
+    transform: translateY(250px);
 }
-.overlay-6:hover {
-    opacity: 0;
+.container:hover .overlay-6 {    
+    transform: translateY(250px);
 }
 div.bot > h1 {
     padding: 70px;
@@ -646,6 +682,9 @@ div.bot > h1::after {
     font-size: 70%;
     border-radius: 4px;
     color: #fff;
+}
+.container:hover h4 {
+	color: #fff;
 }
 /* BFP LCCFS CONTAINER */
 .container ul > li.lccfs {
