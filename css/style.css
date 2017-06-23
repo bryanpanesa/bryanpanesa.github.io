@@ -571,6 +571,7 @@ h2.right-title ~ p {
 .lccfs {
     background: url("../images/portfolio/bfp1.PNG") no-repeat center;
     transition: all 0.3s ease;
+    background-size: cover;
 }
 .container:hover .lccfs {
 	transform:  scale(1.1);
@@ -578,6 +579,7 @@ h2.right-title ~ p {
 .gogon {
     background: url("../images/portfolio/gogon1.PNG") no-repeat center;
     transition: all 0.3s ease;
+    background-size: cover;
 }
 .container:hover .gogon {
 	transform:  scale(1.1);
@@ -585,6 +587,7 @@ h2.right-title ~ p {
 .phage {
     background: url("../images/portfolio/phage/phage2.jpg") no-repeat center;
     transition: all 0.3s ease;
+    background-size: cover;
 }
 .container:hover .phage {
 	transform:  scale(1.1);
@@ -592,6 +595,7 @@ h2.right-title ~ p {
 .inventory {
     background: url("../images/portfolio/crud1.PNG") no-repeat center;
     transition: all 0.3s ease;
+    background-size: cover;
 }
 .container:hover .inventory {
 	transform:  scale(1.1);
@@ -599,6 +603,7 @@ h2.right-title ~ p {
 .typeab {
     background: url("../images/portfolio/type1.PNG") no-repeat center;
     transition: all 0.3s ease;
+    background-size: cover;
 }
 .container:hover .typeab {
 	transform:  scale(1.1);
@@ -606,6 +611,7 @@ h2.right-title ~ p {
 .presidents {
     background: url("../images/portfolio/presidents1.PNG") no-repeat center;
     transition: all 0.3s ease;
+    background-size: cover;
 }
 .container:hover .presidents {
 	transform:  scale(1.1);
