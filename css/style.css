@@ -140,8 +140,8 @@ div.presidents-group ul li {
     cursor: pointer;
 }
 .button2 {
-    background-color: white; 
-    color: #008CBA; 
+    background-color: white;
+    color: #008CBA;
     border: 2px solid #008CBA;
 }
 .button2:hover {
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6, p{
     z-index: 2;
 }
 #to-about:hover::after {
-    width: 0; 
+    width: 0;
 }
 /* TO TOP */
 #toTop {
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6, p{
     z-index: 2;
 }
 #toTop:hover::after {
-    width: 0; 
+    width: 0;
 }
 .toTops {
     padding: 5px 3px;
@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 15px;
 }
 .toTops:hover::after {
-    width: 0; 
+    width: 0;
 }
 /* HEADER */
 header {
@@ -221,7 +221,7 @@ header::before {
     left: 0;
     bottom: 0;
     background-image: linear-gradient(to bottom,#002f4b,#002f4b,#dc4225);
-    opacity: .7; 
+    opacity: .7;
 }
 .left-bar, .right-bar {
     position: relative;
@@ -301,7 +301,7 @@ a.nav:hover {
 a.nav:hover::after {
   width: 100%;
 }
- 
+
 
 /* END OF HEADER */
 
@@ -517,7 +517,7 @@ h2.right-title ~ p {
 .portfolio {
     text-align: center;
     overflow: hidden;
-    width: 100%;  
+    width: 100%;
     height: auto;
     font-size: 110%;
     line-height: 1.3;
@@ -646,22 +646,22 @@ h2.right-title ~ p {
     opacity: 0.8;
     transition: all 0.3s ease;
 }
-.container:hover .overlay-1 {    
+.container:hover .overlay-1 {
     transform: translateY(250px);
 }
-.container:hover .overlay-2 {    
+.container:hover .overlay-2 {
     transform: translateY(250px);
 }
-.container:hover .overlay-3 {    
+.container:hover .overlay-3 {
     transform: translateY(250px);
 }
-.container:hover .overlay-4 {    
+.container:hover .overlay-4 {
     transform: translateY(250px);
 }
-.container:hover .overlay-5 {    
+.container:hover .overlay-5 {
     transform: translateY(250px);
 }
-.container:hover .overlay-6 {    
+.container:hover .overlay-6 {
     transform: translateY(250px);
 }
 div.bot > h1 {
@@ -766,10 +766,10 @@ div.bot > h1::after {
     overflow-x: hidden;
     /*background: linear-gradient(to top left, #24C6DC, #514A9D);*/
     background-image: linear-gradient(to bottom,#002f4b,#dc4225);
-    
+
     margin-top: 50px;
     /*transform: rotate(-3deg);*/
-    width: 100%;  
+    width: 100%;
     height: auto;
 }
 h1.contact-white {
@@ -853,7 +853,7 @@ footer ul li a:hover {
     color: #e74c3c;
 }
 .extra {
-    width: 100%;    
+    width: 100%;
     height: 100%;
     text-align: center;
 }
@@ -1247,6 +1247,70 @@ ul.colors li:hover {
     height: 50px;
 }
 
+/* Apps Tested */
+.testBanner {
+  text-align: center;
+  margin: 50px auto;
+  width: 2700px;
+  overflow: hidden;
+}
+.testBanner img {
+  position: relative;
+  padding: 10px 40px;
+  width: 140px;
+  transition: all 0.2s ease;
+}
+.testBanner img:hover {
+  transform: scale(1.1);
+}
+.first {
+	-webkit-animation: bannermove 20s linear infinite;
+	   -moz-animation: bannermove 20s linear infinite;
+	    -ms-animation: bannermove 20s linear infinite;
+	     -o-animation: bannermove 20s linear infinite;
+	        animation: bannermove 20s linear infinite;
+}
+@keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2690px;
+  }
+}
+@-moz-keyframes bannermove {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2690px;
+  }
+}
+@-webkit-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2690px;
+  }
+}
+@-ms-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2690px;
+  }
+}
+@-o-keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2690px;
+  }
+}
+
 
 /*
 MEDIA QUERIES
@@ -1305,7 +1369,7 @@ MEDIA QUERIES
     .right-bar li a {
         padding: 0px;
         font-size: 16px;
-    }   
+    }
     .about2 {
         padding: 0 20px;
     }
@@ -1332,7 +1396,7 @@ MEDIA QUERIES
         padding: 20px 10px 20px 10px !important;
     }
     div.face-banner img {
-        padding-top: 0; 
+        padding-top: 0;
     }
     .about2 {
         text-align: center;
@@ -1394,7 +1458,7 @@ MEDIA QUERIES
         width: auto;
     }
 }
-/* Screens lower that 320 w */ 
+/* Screens lower that 320 w */
 @media only screen and (max-width: 320px) {
 	.skill-sec div {
 	    padding: 5px;
