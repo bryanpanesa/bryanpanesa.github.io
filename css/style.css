@@ -1248,20 +1248,24 @@ ul.colors li:hover {
 }
 
 /* Apps Tested */
+#tests {
+	width: 100%;
+ 	overflow: hidden;
+}
 .testBanner {
-  text-align: center;
-  margin: 50px auto;
-  width: 2700px;
-  overflow: hidden;
+  	text-align: center;
+  	margin: 50px auto;
+ 	width: 2700px;
+  	overflow: hidden;
 }
 .testBanner img {
-  position: relative;
-  padding: 10px 40px;
-  width: 140px;
-  transition: all 0.2s ease;
+  	position: relative;
+  	padding: 10px 40px;
+  	width: 140px;
+  	transition: all 0.2s ease;
 }
 .testBanner img:hover {
-  transform: scale(1.1);
+  	transform: scale(1.1);
 }
 .first {
 	-webkit-animation: bannermove 20s linear infinite;
