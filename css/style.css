@@ -445,7 +445,13 @@ h2.right-title ~ p {
 .linked:visited {
     color: #47c0da;
 }
-
+.linked-color {
+	color: #AAE9EB;
+    text-decoration: none;
+}
+.linked-color:visited {
+    color: #AAE9EB;
+}
 .left-title ~ .foo {
     font-weight: 600;
 }
