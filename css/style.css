@@ -701,10 +701,10 @@ div.bot > h1::after {
     margin-left: 15%;
 }
 .container ul li.lccfs:nth-child(3) {
-    margin-left: 43%;
+    margin-left: 44%;
 }
 .container ul li.lccfs:last-child {
-    margin-left: 63%;
+    margin-left: 64%;
 }
 /* GOGON SYSTEM CONTAINER */
 .container ul > li.gogon {
@@ -715,10 +715,10 @@ div.bot > h1::after {
     margin-left: 15%;
 }
 .container ul > li.gogon:nth-child(3)  {
-    margin-left: 43%;
+    margin-left: 44%;
 }
 .container ul > li.gogon:last-child {
-    margin-left: 63%;
+    margin-left: 64%;
 }
 /* PHAGEBIOTICS CONTAINER */
 .container ul > li.phage {
@@ -729,7 +729,7 @@ div.bot > h1::after {
     margin-left: 17%;
 }
 .container ul > li.phage3:last-child {
-    margin-left: 46%;
+    margin-left: 47.1%;
 }
 /* INVENTORY PHP OOP CONTAINER */
 .container ul > li.inventory {
@@ -740,7 +740,7 @@ div.bot > h1::after {
     margin-left: 15%;
 }
 .container ul li.inventory:last-child {
-    margin-left: 43%;
+    margin-left: 44%;
 }
 /* INVENTORY PHP OOP CONTAINER */
 .container ul > li.typeab {
@@ -748,7 +748,7 @@ div.bot > h1::after {
     border: 1px solid #9b59b6;
 }
 .container ul li.typeab:last-child {
-    margin-left: 28%;
+    margin-left: 29%;
 }
 /* INVENTORY PHP OOP CONTAINER */
 .container ul > li.presidents {
@@ -756,7 +756,7 @@ div.bot > h1::after {
     border: 1px solid #1abc9c;
 }
 .container ul li.presidents:last-child {
-    margin-left: 28%;
+    margin-left: 29%;
 }
 
 
@@ -1251,9 +1251,10 @@ ul.colors li:hover {
 #tests {
 	width: 100%;
  	overflow: hidden;
+ 	text-align: center;
+ 	line-height: 0.7;
 }
 .testBanner {
-  	text-align: center;
   	margin: 50px auto;
  	width: 2700px;
   	overflow: hidden;
